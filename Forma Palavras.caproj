@@ -1,0 +1,1131 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Forma Palavras</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>13qynxr8tcry5</unique-id>
+    <saved-with-version>27900</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects>
+        <effect author="Scirra" id="lighten">Lighten</effect>
+    </used-effects>
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Background" sid="484328031570422">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\fabii\Desktop\LPE\Design\Letras\bg.png" />
+        </object-type>
+        <object-type name="Logo" sid="359214332381971">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\Users\aghat\Documents\Uni\LPE\assets\Layer 2 2.png" />
+        </object-type>
+        <object-type name="BemVindo" sid="570050457833433">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Nome" sid="964122188948307">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Iniciar" sid="889856880952612">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="564971209901845">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <effects>
+                <effect-type name="Lighten">
+                    <effect id="lighten" />
+                </effect-type>
+            </effects>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="461097332346655" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\aghat\Documents\Uni\LPE\assets\Layer 1.png">
+                        <collision-poly>
+                            <point x="0.0365854" y="0.153061" />
+                            <point x="0.5" y="0.0102041" />
+                            <point x="0.963415" y="0.153061" />
+                            <point x="0.997561" y="0.5" />
+                            <point x="0.963415" y="0.846939" />
+                            <point x="0.5" y="0.989796" />
+                            <point x="0.0365854" y="0.846939" />
+                            <point x="0.00243902" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Instrução" sid="332631400879466">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="285689078531639">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <effects>
+                <effect-type name="Lighten">
+                    <effect id="lighten" />
+                </effect-type>
+            </effects>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="767393466292766" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\aghat\Documents\Uni\LPE\assets\Layer 2 3.png">
+                        <collision-poly>
+                            <point x="0.0365854" y="0.153061" />
+                            <point x="0.5" y="0.0102041" />
+                            <point x="0.963415" y="0.153061" />
+                            <point x="0.997561" y="0.5" />
+                            <point x="0.963415" y="0.846939" />
+                            <point x="0.5" y="0.989796" />
+                            <point x="0.0365854" y="0.846939" />
+                            <point x="0.00243902" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="230869875793232">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Mouse" sid="355593382409692">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Logo2" sid="514760369968918">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\Users\aghat\Documents\Uni\LPE\assets\Layer 2 2.png" />
+        </object-type>
+        <object-type name="ComoJogar" sid="252533249134661">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Descrição" sid="426185190825891">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Configuração" sid="791178558202083">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="301118828588206" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\aghat\Documents\Uni\LPE\assets\Layer 2.png">
+                        <collision-poly>
+                            <point x="0.164147" y="0.160387" />
+                            <point x="0.5" y="0.0153837" />
+                            <point x="0.835853" y="0.160387" />
+                            <point x="0.874905" y="0.496184" />
+                            <point x="0.843663" y="0.847245" />
+                            <point x="0.5" y="0.984616" />
+                            <point x="0.156337" y="0.847245" />
+                            <point x="0.125094" y="0.496184" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Dica1" sid="149841930873436">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\Users\aghat\Documents\Uni\LPE\T2 - Tela de Instruções\example_print.png" />
+        </object-type>
+        <object-type name="Dicas" sid="676953309434393">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="SetaIncial" sid="566270374117772">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="317582087077072" speed="5">
+                    <frame duration="1" hotspotX="0.55" hotspotY="0.5" original-source="D:\Users\aghat\Documents\Uni\LPE\assets\seta.png">
+                        <collision-poly>
+                            <point x="0.222265" y="0.292098" />
+                            <point x="0.497033" y="0.0919953" />
+                            <point x="0.97936" y="0.497398" />
+                            <point x="0.497033" y="0.907998" />
+                            <point x="0.220288" y="0.705296" />
+                            <point x="0.0166826" y="0.497398" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Voltar" sid="803750106770291">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="SetaPassar" sid="322250970877034">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="895048019893511" speed="5">
+                    <frame duration="1" hotspotX="0.55" hotspotY="0.5" original-source="D:\Users\aghat\Documents\Uni\LPE\assets\seta.png">
+                        <collision-poly>
+                            <point x="0.222265" y="0.292098" />
+                            <point x="0.497033" y="0.0919953" />
+                            <point x="0.97936" y="0.497398" />
+                            <point x="0.497033" y="0.907998" />
+                            <point x="0.220288" y="0.705296" />
+                            <point x="0.0166826" y="0.497398" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letraA" sid="912376540342418">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="682584849832384" speed="5">
+                    <frame duration="1" hotspotX="0.52" hotspotY="0.5" original-source="D:\Users\aghat\Documents\Uni\LPE\letterA.png">
+                        <collision-poly>
+                            <point x="0.0733591" y="0.05" />
+                            <point x="0.513514" y="0.00769231" />
+                            <point x="0.942085" y="0.0653846" />
+                            <point x="0.996139" y="0.5" />
+                            <point x="0.942085" y="0.934615" />
+                            <point x="0.513514" y="0.996154" />
+                            <point x="0.0733591" y="0.95" />
+                            <point x="0.003861" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letraB" sid="157364613986987">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="466025660704468" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\aghat\Documents\Uni\LPE\letterB.png">
+                        <collision-poly>
+                            <point x="0.0540541" y="0.0730769" />
+                            <point x="0.494208" y="0.00769231" />
+                            <point x="0.942085" y="0.0692308" />
+                            <point x="0.996139" y="0.5" />
+                            <point x="0.942085" y="0.934615" />
+                            <point x="0.494208" y="0.992308" />
+                            <point x="0.0540541" y="0.930769" />
+                            <point x="0.00772201" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letraC" sid="256181219591484">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="310051230321387" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.52" original-source="D:\Users\aghat\Documents\Uni\LPE\letterC.png">
+                        <collision-poly>
+                            <point x="0.050193" y="0.0730769" />
+                            <point x="0.498069" y="0.00769231" />
+                            <point x="0.945946" y="0.0769231" />
+                            <point x="0.996139" y="0.511538" />
+                            <point x="0.938224" y="0.938462" />
+                            <point x="0.498069" y="0.992308" />
+                            <point x="0.0617761" y="0.938462" />
+                            <point x="0.003861" y="0.511538" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letraD" sid="939855560902915">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="693979485548266" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\aghat\Documents\Uni\LPE\letterD.png">
+                        <collision-poly>
+                            <point x="0.050193" y="0.0769231" />
+                            <point x="0.494208" y="0.00769231" />
+                            <point x="0.945946" y="0.0692308" />
+                            <point x="0.996139" y="0.503846" />
+                            <point x="0.938224" y="0.934615" />
+                            <point x="0.494208" y="0.992308" />
+                            <point x="0.0540541" y="0.930769" />
+                            <point x="0.003861" y="0.503846" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letraE" sid="324296265032475">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="337221246414736" speed="5">
+                    <frame duration="1" hotspotX="0.48" hotspotY="0.5" original-source="C:\Users\fabii\Desktop\LPE\Design\Letras\E.png">
+                        <collision-poly>
+                            <point x="0.056213" y="0.108331" />
+                            <point x="0.481509" y="0.0229433" />
+                            <point x="0.928994" y="0.0860558" />
+                            <point x="0.973373" y="0.509281" />
+                            <point x="0.917899" y="0.921369" />
+                            <point x="0.481509" y="0.973344" />
+                            <point x="0.0636095" y="0.902807" />
+                            <point x="0.0266272" y="0.509281" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letraF" sid="724472929514542">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="766405754656324" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\aghat\Documents\Uni\LPE\letterF.png">
+                        <collision-poly>
+                            <point x="0.0733591" y="0.0538462" />
+                            <point x="0.505791" y="0.00769231" />
+                            <point x="0.934363" y="0.0576923" />
+                            <point x="0.996139" y="0.492308" />
+                            <point x="0.938224" y="0.934615" />
+                            <point x="0.505791" y="0.992308" />
+                            <point x="0.0656371" y="0.942308" />
+                            <point x="0.003861" y="0.492308" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letraG" sid="578687962738924">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="106135222562429" speed="5">
+                    <frame duration="1" hotspotX="0.52" hotspotY="0.5" original-source="D:\Users\aghat\Documents\Uni\LPE\letterG.png">
+                        <collision-poly>
+                            <point x="0.0784314" y="0.03861" />
+                            <point x="0.517647" y="0.003861" />
+                            <point x="0.937255" y="0.0617761" />
+                            <point x="0.996078" y="0.498069" />
+                            <point x="0.941176" y="0.938224" />
+                            <point x="0.517647" y="0.996139" />
+                            <point x="0.0745098" y="0.96139" />
+                            <point x="0.00392157" y="0.498069" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letraH" sid="106586835914709">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="721221745424496" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\aghat\Documents\Uni\LPE\letterH.png">
+                        <collision-poly>
+                            <point x="0.0694981" y="0.0579151" />
+                            <point x="0.505791" y="0.003861" />
+                            <point x="0.938224" y="0.0617761" />
+                            <point x="0.996139" y="0.490348" />
+                            <point x="0.949807" y="0.930502" />
+                            <point x="0.505791" y="0.996139" />
+                            <point x="0.0579151" y="0.934363" />
+                            <point x="0.00772201" y="0.490348" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letraJ" sid="652464641820349">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="644635073879681" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\aghat\Documents\Uni\LPE\letterJ.png">
+                        <collision-poly>
+                            <point x="0.0656371" y="0.0579151" />
+                            <point x="0.50193" y="0.003861" />
+                            <point x="0.938224" y="0.0617761" />
+                            <point x="0.996139" y="0.494208" />
+                            <point x="0.945946" y="0.934363" />
+                            <point x="0.50193" y="0.996139" />
+                            <point x="0.0617761" y="0.934363" />
+                            <point x="0.003861" y="0.494208" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letraI" sid="648214959109000">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="195126419442288" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\aghat\Documents\Uni\LPE\letterI.png">
+                        <collision-poly>
+                            <point x="0.0656371" y="0.0540541" />
+                            <point x="0.505791" y="0.00386101" />
+                            <point x="0.938224" y="0.0617761" />
+                            <point x="0.996139" y="0.494208" />
+                            <point x="0.942085" y="0.934363" />
+                            <point x="0.505791" y="0.996139" />
+                            <point x="0.0617761" y="0.942085" />
+                            <point x="0.003861" y="0.494208" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letraK" sid="114779187630095">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="444442097921024" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\aghat\Documents\Uni\LPE\letterK.png">
+                        <collision-poly>
+                            <point x="0.0730769" y="0.0540541" />
+                            <point x="0.496154" y="0.003861" />
+                            <point x="0.923077" y="0.050193" />
+                            <point x="0.992308" y="0.50193" />
+                            <point x="0.923077" y="0.953668" />
+                            <point x="0.496154" y="0.996139" />
+                            <point x="0.0730769" y="0.949807" />
+                            <point x="0.00769231" y="0.50193" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letraL" sid="894636427659788">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="212876845890857" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\aghat\Documents\Uni\LPE\letterL.png">
+                        <collision-poly>
+                            <point x="0.0656371" y="0.0579151" />
+                            <point x="0.490348" y="0.003861" />
+                            <point x="0.92278" y="0.050193" />
+                            <point x="0.996139" y="0.494208" />
+                            <point x="0.930502" y="0.945946" />
+                            <point x="0.490348" y="0.996139" />
+                            <point x="0.0579151" y="0.938224" />
+                            <point x="0.003861" y="0.494208" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letraM" sid="560243239945517">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="913311859073967" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\aghat\Documents\Uni\LPE\letterM.png">
+                        <collision-poly>
+                            <point x="0.0849421" y="0.046332" />
+                            <point x="0.509652" y="0.00772201" />
+                            <point x="0.926641" y="0.0540541" />
+                            <point x="0.996139" y="0.494208" />
+                            <point x="0.934363" y="0.945946" />
+                            <point x="0.509652" y="0.996139" />
+                            <point x="0.0772201" y="0.953668" />
+                            <point x="0.003861" y="0.494208" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letraN" sid="177402105900751">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="444319312820254" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\aghat\Documents\Uni\LPE\letterN.png">
+                        <collision-poly>
+                            <point x="0.0656371" y="0.0617761" />
+                            <point x="0.498069" y="0.00772201" />
+                            <point x="0.934363" y="0.0617761" />
+                            <point x="0.996139" y="0.50193" />
+                            <point x="0.934363" y="0.942085" />
+                            <point x="0.498069" y="0.996139" />
+                            <point x="0.0656371" y="0.942085" />
+                            <point x="0.00772201" y="0.50193" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letraO" sid="718455386961375">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="828581592214606" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\aghat\Documents\Uni\LPE\letterO.png">
+                        <collision-poly>
+                            <point x="0.0694981" y="0.0579151" />
+                            <point x="0.490348" y="0.00772201" />
+                            <point x="0.92278" y="0.050193" />
+                            <point x="0.996139" y="0.490348" />
+                            <point x="0.934363" y="0.942085" />
+                            <point x="0.490348" y="0.996139" />
+                            <point x="0.0579151" y="0.934363" />
+                            <point x="0.003861" y="0.490348" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letraP" sid="863858163553456">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="676764642250301" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\fabii\Desktop\LPE\Design\Letras\P.png">
+                        <collision-poly>
+                            <point x="0.0540541" y="0.0733591" />
+                            <point x="0.490348" y="0.00772201" />
+                            <point x="0.938224" y="0.0617761" />
+                            <point x="0.996139" y="0.498069" />
+                            <point x="0.942085" y="0.938224" />
+                            <point x="0.490348" y="0.996139" />
+                            <point x="0.050193" y="0.926641" />
+                            <point x="0.003861" y="0.498069" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letraQ" sid="617049361616278">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="836233476547928" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\aghat\Documents\Uni\LPE\letterQ.png">
+                        <collision-poly>
+                            <point x="0.0576923" y="0.0656371" />
+                            <point x="0.492308" y="0.00772201" />
+                            <point x="0.934615" y="0.0579151" />
+                            <point x="0.992308" y="0.494208" />
+                            <point x="0.938462" y="0.934363" />
+                            <point x="0.492308" y="0.996139" />
+                            <point x="0.0538462" y="0.926641" />
+                            <point x="0.00769231" y="0.494208" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letraR" sid="782790669832906">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="828462954911723" speed="5">
+                    <frame duration="1" hotspotX="0.48" hotspotY="0.5" original-source="C:\Users\fabii\Desktop\LPE\Design\Letras\R.png">
+                        <collision-poly>
+                            <point x="0.0540541" y="0.0733591" />
+                            <point x="0.482625" y="0.00772201" />
+                            <point x="0.930502" y="0.0579151" />
+                            <point x="0.996139" y="0.50193" />
+                            <point x="0.930502" y="0.945946" />
+                            <point x="0.482625" y="0.996139" />
+                            <point x="0.0540541" y="0.930502" />
+                            <point x="0.003861" y="0.50193" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letraS" sid="761869972292177">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="936702737527972" speed="5">
+                    <frame duration="1" hotspotX="0.52" hotspotY="0.5" original-source="C:\Users\fabii\Desktop\LPE\Design\Letras\S.png">
+                        <collision-poly>
+                            <point x="0.0810811" y="0.046332" />
+                            <point x="0.517375" y="0.003861" />
+                            <point x="0.938224" y="0.0617761" />
+                            <point x="0.996139" y="0.50193" />
+                            <point x="0.934363" y="0.938224" />
+                            <point x="0.517375" y="0.992278" />
+                            <point x="0.0810811" y="0.957529" />
+                            <point x="0.003861" y="0.50193" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letraT" sid="456666028513579">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="893437675737240" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\aghat\Documents\Uni\LPE\letterT.png">
+                        <collision-poly>
+                            <point x="0.0749183" y="0.0860558" />
+                            <point x="0.498144" y="0.0229433" />
+                            <point x="0.925082" y="0.0823433" />
+                            <point x="0.977057" y="0.490719" />
+                            <point x="0.936219" y="0.910232" />
+                            <point x="0.498144" y="0.973344" />
+                            <point x="0.0637808" y="0.906519" />
+                            <point x="0.0266558" y="0.490719" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letraU" sid="619774756884349">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="750085187597663" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\aghat\Documents\Uni\LPE\letterU.png">
+                        <collision-poly>
+                            <point x="0.0579151" y="0.0617761" />
+                            <point x="0.498069" y="0.003861" />
+                            <point x="0.938224" y="0.0617761" />
+                            <point x="0.996139" y="0.498069" />
+                            <point x="0.938224" y="0.934363" />
+                            <point x="0.498069" y="0.992278" />
+                            <point x="0.0579151" y="0.934363" />
+                            <point x="0.003861" y="0.498069" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letraV" sid="598637629918973">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="412251736602822" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.48" original-source="D:\Users\aghat\Documents\Uni\LPE\letterV.png">
+                        <collision-poly>
+                            <point x="0.0772201" y="0.050193" />
+                            <point x="0.50193" y="0.003861" />
+                            <point x="0.930502" y="0.050193" />
+                            <point x="0.996139" y="0.482625" />
+                            <point x="0.942085" y="0.930502" />
+                            <point x="0.50193" y="0.992278" />
+                            <point x="0.0617761" y="0.934363" />
+                            <point x="0.00386101" y="0.482625" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letraW" sid="242482999309804">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="104679465974642" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\aghat\Documents\Uni\LPE\letterW.png">
+                        <collision-poly>
+                            <point x="0.0653846" y="0.0579151" />
+                            <point x="0.5" y="0.003861" />
+                            <point x="0.934615" y="0.0579151" />
+                            <point x="0.992308" y="0.498069" />
+                            <point x="0.934615" y="0.942085" />
+                            <point x="0.5" y="0.992278" />
+                            <point x="0.0653846" y="0.942085" />
+                            <point x="0.00769231" y="0.498069" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letraX" sid="607661975563534">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="277521968710142" speed="5">
+                    <frame duration="1" hotspotX="0.52" hotspotY="0.48" original-source="D:\Users\aghat\Documents\Uni\LPE\letterX.png">
+                        <collision-poly>
+                            <point x="0.0656371" y="0.0579151" />
+                            <point x="0.513514" y="0.003861" />
+                            <point x="0.945946" y="0.0733591" />
+                            <point x="0.996139" y="0.482625" />
+                            <point x="0.96139" y="0.907336" />
+                            <point x="0.513514" y="0.996139" />
+                            <point x="0.050193" y="0.92278" />
+                            <point x="0.003861" y="0.482625" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letraY" sid="639993625287966">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="477962578048954" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\aghat\Documents\Uni\LPE\letterY.png">
+                        <collision-poly>
+                            <point x="0.0772201" y="0.050193" />
+                            <point x="0.50193" y="0.003861" />
+                            <point x="0.926641" y="0.0540541" />
+                            <point x="0.996139" y="0.498069" />
+                            <point x="0.930502" y="0.949807" />
+                            <point x="0.50193" y="0.996139" />
+                            <point x="0.0772201" y="0.949807" />
+                            <point x="0.003861" y="0.498069" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letraZ" sid="295206241332567">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="543515886958825" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\aghat\Documents\Uni\LPE\letterZ.png">
+                        <collision-poly>
+                            <point x="0.0617761" y="0.0617761" />
+                            <point x="0.50193" y="0.003861" />
+                            <point x="0.942085" y="0.0617761" />
+                            <point x="0.996139" y="0.490348" />
+                            <point x="0.949807" y="0.930502" />
+                            <point x="0.50193" y="0.996139" />
+                            <point x="0.0540541" y="0.930502" />
+                            <point x="0.00772201" y="0.490348" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Vazio" sid="895785302651940">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="861336822083500" speed="5">
+                    <frame duration="1" hotspotX="0.52" hotspotY="0.48" original-source="C:\Users\fabii\Desktop\LPE\Design\Letras\placeholder.png">
+                        <collision-poly>
+                            <point x="0.0222935" y="0" />
+                            <point x="0.518887" y="0" />
+                            <point x="1" y="9.25653e-005" />
+                            <point x="1" y="0.479672" />
+                            <point x="1" y="0.959251" />
+                            <point x="0.518887" y="1" />
+                            <point x="0.0222935" y="0.976227" />
+                            <point x="0" y="0.479672" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type global="1" name="palavras" sid="297180993406508">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type name="inicio" sid="437815363276650">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="513730121455999" speed="5">
+                    <frame duration="1" hotspotX="1.8" hotspotY="0.48">
+                        <image-point name="Imagepoint 1" x="0.6" y="0.5" />
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Reiniciar" sid="368995221430866">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="748944954675000" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\fabii\Downloads\restore.png">
+                        <collision-poly>
+                            <point x="0.0004995" y="0.0004995" />
+                            <point x="0.5" y="0.0004995" />
+                            <point x="0.999501" y="0.0004995" />
+                            <point x="0.999501" y="0.546645" />
+                            <point x="0.999501" y="0.999501" />
+                            <point x="0.5" y="0.999501" />
+                            <point x="0.0004995" y="0.999501" />
+                            <point x="0.0004995" y="0.546645" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="moeda" sid="288037946653226">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="380256233000678" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\fabii\Downloads\euro.png">
+                        <collision-poly>
+                            <point x="0.134805" y="0.139957" />
+                            <point x="0.497664" y="0.00720398" />
+                            <point x="0.861536" y="0.138951" />
+                            <point x="0.994314" y="0.5" />
+                            <point x="0.862549" y="0.862054" />
+                            <point x="0.497664" y="0.992796" />
+                            <point x="0.135819" y="0.859037" />
+                            <point x="0.00101357" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Moedas" sid="367582268838820">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="dica" sid="947944255887943">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="443011267136404" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\fabii\Downloads\sticker.png">
+                        <collision-poly>
+                            <point x="0.0586207" y="0.12047" />
+                            <point x="0.5" y="0" />
+                            <point x="0.941379" y="0.12047" />
+                            <point x="1" y="0.5" />
+                            <point x="0.941379" y="0.87953" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0586207" y="0.87953" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text" sid="297087101061233">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite" sid="676796697727268">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="363774190773985" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pe" sid="292022537576290">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="142167543537850" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\fabii\Desktop\LPE\Design\Letras\pe.png">
+                        <collision-poly>
+                            <point x="0.04" y="0.08" />
+                            <point x="0.96" y="0.08" />
+                            <point x="0.99" y="0.5" />
+                            <point x="0.96" y="0.92" />
+                            <point x="0.03" y="0.94" />
+                            <point x="0.01" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pote" sid="656805941512680">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="254369693574589" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\fabii\Desktop\LPE\Design\Letras\pote.png">
+                        <collision-poly>
+                            <point x="0.02" y="0.08" />
+                            <point x="0.5" y="0.14" />
+                            <point x="0.98" y="0.08" />
+                            <point x="0.995" y="0.5" />
+                            <point x="0.98" y="0.92" />
+                            <point x="0.5" y="0.88" />
+                            <point x="0.015" y="0.94" />
+                            <point x="0.005" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="reto" sid="710934364675917">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="974089671354643" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\fabii\Desktop\LPE\Design\Letras\reto.png">
+                        <collision-poly>
+                            <point x="0.02" y="0.08" />
+                            <point x="0.985" y="0.06" />
+                            <point x="1" y="0.5" />
+                            <point x="0.99" y="0.96" />
+                            <point x="0.015" y="0.94" />
+                            <point x="0.005" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="295928580727551">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="213560673375868" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\fabii\Desktop\LPE\Design\Letras\preto.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="preto" sid="784844427494841">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="835904268214307" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\fabii\Desktop\LPE\Design\Letras\preto.png">
+                        <collision-poly>
+                            <point x="0.016" y="0.08" />
+                            <point x="0.988" y="0.06" />
+                            <point x="0.992" y="0.96" />
+                            <point x="0.5" y="1" />
+                            <point x="0.012" y="0.94" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sorte" sid="690384654729561">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="751815803869489" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\fabii\Desktop\LPE\Design\Letras\sorte.png">
+                        <collision-poly>
+                            <point x="0.012" y="0.06" />
+                            <point x="0.5" y="0.02" />
+                            <point x="0.984" y="0.08" />
+                            <point x="0.988" y="0.94" />
+                            <point x="0.5" y="1" />
+                            <point x="0.012" y="0.94" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="success" sid="754072075418738">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="letter1" sid="227435811817415">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="130901068826920" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\fabii\Desktop\LPE\Design\Letras\placeholder.png">
+                        <collision-poly>
+                            <point x="0.06" y="0.06" />
+                            <point x="0.5" y="0" />
+                            <point x="0.94" y="0.06" />
+                            <point x="1" y="0.5" />
+                            <point x="0.96" y="0.96" />
+                            <point x="0.5" y="1" />
+                            <point x="0.06" y="0.94" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letter2" sid="350743575796089">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="438710499323786" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\fabii\Desktop\LPE\Design\Letras\placeholder.png">
+                        <collision-poly>
+                            <point x="0.06" y="0.06" />
+                            <point x="0.5" y="0" />
+                            <point x="0.94" y="0.06" />
+                            <point x="1" y="0.5" />
+                            <point x="0.96" y="0.96" />
+                            <point x="0.5" y="1" />
+                            <point x="0.06" y="0.94" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letter3" sid="261738786642521">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="421374263786236" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\fabii\Desktop\LPE\Design\Letras\placeholder.png">
+                        <collision-poly>
+                            <point x="0.06" y="0.06" />
+                            <point x="0.5" y="0" />
+                            <point x="0.94" y="0.06" />
+                            <point x="1" y="0.5" />
+                            <point x="0.96" y="0.96" />
+                            <point x="0.5" y="1" />
+                            <point x="0.06" y="0.94" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letter4" sid="784283769248473">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="969792766464487" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\fabii\Desktop\LPE\Design\Letras\placeholder.png">
+                        <collision-poly>
+                            <point x="0.06" y="0.06" />
+                            <point x="0.5" y="0" />
+                            <point x="0.94" y="0.06" />
+                            <point x="1" y="0.5" />
+                            <point x="0.96" y="0.96" />
+                            <point x="0.5" y="1" />
+                            <point x="0.06" y="0.94" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Background2" sid="185363970451839">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\fabii\Desktop\LPE\Design\Letras\bg.png" />
+        </object-type>
+        <object-type name="letter5" sid="250158981524118">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="643882913402446" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\fabii\Desktop\LPE\Design\Letras\placeholder.png">
+                        <collision-poly>
+                            <point x="0.06" y="0.06" />
+                            <point x="0.5" y="0" />
+                            <point x="0.94" y="0.06" />
+                            <point x="1" y="0.5" />
+                            <point x="0.96" y="0.96" />
+                            <point x="0.5" y="1" />
+                            <point x="0.06" y="0.94" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letraE2" sid="421134447537797">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="189966911672184" speed="5">
+                    <frame duration="1" hotspotX="0.48" hotspotY="0.5" original-source="C:\Users\fabii\Desktop\LPE\Design\Letras\E.png">
+                        <collision-poly>
+                            <point x="0.056213" y="0.108331" />
+                            <point x="0.481509" y="0.0229433" />
+                            <point x="0.928994" y="0.0860558" />
+                            <point x="0.973373" y="0.509281" />
+                            <point x="0.917899" y="0.921369" />
+                            <point x="0.481509" y="0.973344" />
+                            <point x="0.0636095" y="0.902807" />
+                            <point x="0.0266272" y="0.509281" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letraS2" sid="332506774037725">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="910109333096246" speed="5">
+                    <frame duration="1" hotspotX="0.52" hotspotY="0.5" original-source="C:\Users\fabii\Desktop\LPE\Design\Letras\S.png">
+                        <collision-poly>
+                            <point x="0.0810811" y="0.046332" />
+                            <point x="0.517375" y="0.003861" />
+                            <point x="0.938224" y="0.0617761" />
+                            <point x="0.996139" y="0.50193" />
+                            <point x="0.934363" y="0.938224" />
+                            <point x="0.517375" y="0.992278" />
+                            <point x="0.0810811" y="0.957529" />
+                            <point x="0.003861" y="0.50193" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letraP2" sid="731674599076143">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="206399785532729" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\fabii\Desktop\LPE\Design\Letras\P.png">
+                        <collision-poly>
+                            <point x="0.0540541" y="0.0733591" />
+                            <point x="0.490348" y="0.00772201" />
+                            <point x="0.938224" y="0.0617761" />
+                            <point x="0.996139" y="0.498069" />
+                            <point x="0.942085" y="0.938224" />
+                            <point x="0.490348" y="0.996139" />
+                            <point x="0.050193" y="0.926641" />
+                            <point x="0.003861" y="0.498069" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letraE3" sid="853388699550045">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="355311376631528" speed="5">
+                    <frame duration="1" hotspotX="0.48" hotspotY="0.5" original-source="C:\Users\fabii\Desktop\LPE\Design\Letras\E.png">
+                        <collision-poly>
+                            <point x="0.056213" y="0.108331" />
+                            <point x="0.481509" y="0.0229433" />
+                            <point x="0.928994" y="0.0860558" />
+                            <point x="0.973373" y="0.509281" />
+                            <point x="0.917899" y="0.921369" />
+                            <point x="0.481509" y="0.973344" />
+                            <point x="0.0636095" y="0.902807" />
+                            <point x="0.0266272" y="0.509281" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tip_foot" sid="651606006110657">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="722317561412334" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\fabii\Downloads\foot.png">
+                        <collision-poly>
+                            <point x="0.314453" y="0.314453" />
+                            <point x="0.5" y="0.0644531" />
+                            <point x="0.751953" y="0.248047" />
+                            <point x="0.683594" y="0.5" />
+                            <point x="0.65625" y="0.65625" />
+                            <point x="0.5" y="0.960938" />
+                            <point x="0.326172" y="0.673828" />
+                            <point x="0.306641" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tip" sid="313756020354716">
+            <plugin id="Text" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Tela_Inicial.xml</layout>
+        <layout>Instrução.xml</layout>
+        <layout>Instrução_2.xml</layout>
+        <layout>Nivel_1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event_Tela_Inicial.xml</event-sheet>
+        <event-sheet>Event_Instrução.xml</event-sheet>
+        <event-sheet>Event_Instrução_2.xml</event-sheet>
+        <event-sheet>Event_Nivel_1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="6" />
+        <global-instance type="Mouse" uid="7" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+        <file name="babydoll-webfont.woff" />
+        <file name="babydoll-webfont.woff2" />
+        <file name="gilroy-extrabold-webfont.woff" />
+        <file name="gilroy-extrabold-webfont.woff2" />
+        <file name="gilroy-light-webfont.woff" />
+        <file name="gilroy-light-webfont.woff2" />
+        <file name="stylesheet.css" />
+    </files-folder>
+</c2project>

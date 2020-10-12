@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="0">Nivel_1</layout>
+        <layout order="2">Tela_Inicial</layout>
+        <event-sheet order="1">Event_Nivel_1</event-sheet>
+        <event-sheet active="1" order="3">Event_Tela_Inicial</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1" />
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="0" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/Iniciar/" />
+        <folder expanded="1" path="animation-folder/Instrução/" />
+        <folder expanded="1" path="animation-folder/Configuração/" />
+        <folder expanded="1" path="animation-folder/SetaIncial/" />
+        <folder expanded="1" path="animation-folder/SetaPassar/" />
+        <folder expanded="1" path="animation-folder/letraA/" />
+        <folder expanded="1" path="animation-folder/letraB/" />
+        <folder expanded="1" path="animation-folder/letraC/" />
+        <folder expanded="1" path="animation-folder/letraD/" />
+        <folder expanded="1" path="animation-folder/letraE/" />
+        <folder expanded="1" path="animation-folder/letraF/" />
+        <folder expanded="1" path="animation-folder/letraG/" />
+        <folder expanded="1" path="animation-folder/letraH/" />
+        <folder expanded="1" path="animation-folder/letraJ/" />
+        <folder expanded="1" path="animation-folder/letraI/" />
+        <folder expanded="1" path="animation-folder/letraK/" />
+        <folder expanded="1" path="animation-folder/letraL/" />
+        <folder expanded="1" path="animation-folder/letraM/" />
+        <folder expanded="1" path="animation-folder/letraN/" />
+        <folder expanded="1" path="animation-folder/letraO/" />
+        <folder expanded="1" path="animation-folder/letraP/" />
+        <folder expanded="1" path="animation-folder/letraQ/" />
+        <folder expanded="1" path="animation-folder/letraR/" />
+        <folder expanded="1" path="animation-folder/letraS/" />
+        <folder expanded="1" path="animation-folder/letraT/" />
+        <folder expanded="1" path="animation-folder/letraU/" />
+        <folder expanded="1" path="animation-folder/letraV/" />
+        <folder expanded="1" path="animation-folder/letraW/" />
+        <folder expanded="1" path="animation-folder/letraX/" />
+        <folder expanded="1" path="animation-folder/letraY/" />
+        <folder expanded="1" path="animation-folder/letraZ/" />
+        <folder expanded="1" path="animation-folder/Vazio/" />
+        <folder expanded="1" path="animation-folder/inicio/" />
+        <folder expanded="1" path="animation-folder/Reiniciar/" />
+        <folder expanded="1" path="animation-folder/moeda/" />
+        <folder expanded="1" path="animation-folder/dica/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/pe/" />
+        <folder expanded="1" path="animation-folder/pote/" />
+        <folder expanded="1" path="animation-folder/reto/" />
+        <folder expanded="1" path="animation-folder/Sprite5/" />
+        <folder expanded="1" path="animation-folder/preto/" />
+        <folder expanded="1" path="animation-folder/sorte/" />
+        <folder expanded="1" path="animation-folder/letter1/" />
+        <folder expanded="1" path="animation-folder/letter2/" />
+        <folder expanded="1" path="animation-folder/letter3/" />
+        <folder expanded="1" path="animation-folder/letter4/" />
+        <folder expanded="1" path="animation-folder/letter5/" />
+        <folder expanded="1" path="animation-folder/letraE2/" />
+        <folder expanded="1" path="animation-folder/letraS2/" />
+        <folder expanded="1" path="animation-folder/letraP2/" />
+        <folder expanded="1" path="animation-folder/letraE3/" />
+        <folder expanded="1" path="animation-folder/tip_foot/" />
+    </folders-expanded>
+</c2uistate>
