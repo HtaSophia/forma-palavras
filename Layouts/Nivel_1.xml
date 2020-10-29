@@ -411,7 +411,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>115</x>
+                        <x>111</x>
                         <y>252</y>
                         <z>0</z>
                         <width>50</width>
@@ -680,11 +680,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>329</x>
+                        <x>328.896606445</x>
                         <y>432</y>
                         <z>0</z>
-                        <width>224.793212891</width>
-                        <height>54.794250488</height>
+                        <width>225</width>
+                        <height>22</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -708,10 +708,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>730.058898926</x>
-                        <y>106.360824585</y>
+                        <y>106.257949829</y>
                         <z>0</z>
-                        <width>224.793212891</width>
-                        <height>54.794250488</height>
+                        <width>50</width>
+                        <height>55</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -973,7 +973,7 @@
                 </instance>
                 <instance type="Moedas" uid="63">
                     <properties>
-                        <text>10</text>
+                        <text>0</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Comic Sans MS,-27,700,0</font>
                         <color>255,204,0</color>
@@ -987,13 +987,35 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>75</x>
-                        <y>49</y>
+                        <y>47</y>
                         <z>0</z>
-                        <width>52</width>
-                        <height>42</height>
+                        <width>43</width>
+                        <height>45</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="fechar" uid="46">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>833</x>
+                        <y>18</y>
+                        <z>0</z>
+                        <width>30</width>
+                        <height>30</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.466666669</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

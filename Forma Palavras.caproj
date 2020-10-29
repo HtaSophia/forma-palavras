@@ -1091,6 +1091,25 @@
         <object-type name="tip" sid="313756020354716">
             <plugin id="Text" />
         </object-type>
+        <object-type name="fechar" sid="353229688546481">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="640791329057122" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.466667" original-source="D:\Users\aghat\Documents\Uni\LPE\close1.png">
+                        <collision-poly>
+                            <point x="0.0324325" y="0.00882744" />
+                            <point x="0.515344" y="0" />
+                            <point x="0.998256" y="0.00882744" />
+                            <point x="1" y="0.440437" />
+                            <point x="0.998256" y="0.872046" />
+                            <point x="0.515344" y="0.995049" />
+                            <point x="0.0324325" y="0.872046" />
+                            <point x="0" y="0.440437" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>

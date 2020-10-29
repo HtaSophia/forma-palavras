@@ -10,10 +10,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Nivel_1</layout>
+        <layout active="1" order="0">Nivel_1</layout>
         <layout order="2">Tela_Inicial</layout>
         <event-sheet order="1">Event_Nivel_1</event-sheet>
-        <event-sheet active="1" order="3">Event_Tela_Inicial</event-sheet>
+        <event-sheet order="3">Event_Tela_Inicial</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -83,5 +83,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/letraP2/" />
         <folder expanded="1" path="animation-folder/letraE3/" />
         <folder expanded="1" path="animation-folder/tip_foot/" />
+        <folder expanded="1" path="animation-folder/fechar/" />
     </folders-expanded>
 </c2uistate>
