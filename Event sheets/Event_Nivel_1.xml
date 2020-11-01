@@ -3,10 +3,10 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event_Nivel_1</name>
     <events>
+        <variable constant="0" name="tip" sid="446482202146595" static="0" type="number">0</variable>
         <variable constant="0" name="letterCounter" sid="292768156605005" static="0" type="number">0</variable>
         <variable constant="0" name="actualWord" sid="165545434724396" static="0" type="text"></variable>
         <variable constant="0" name="counter_coins" sid="954023140357706" static="0" type="number">0</variable>
-        <variable constant="0" name="counter_new_tip" sid="208337929475095" static="0" type="number">3</variable>
         <event-group description="" sid="851970650825022" title="System">
             <sub-events>
                 <event-block sid="352243559978609">
@@ -120,6 +120,10 @@
                         <action id="-2" name="Go to layout" sid="297087019457078" type="System">
                             <param id="0" name="Layout">Tela_Inicial</param>
                         </action>
+                        <action id="-9" name="Set value" sid="513448092321088" type="System">
+                            <param id="0" name="Variable">counter_coins</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
@@ -199,7 +203,7 @@
                                 </action>
                                 <action id="-10" name="Add to" sid="285270287568616" type="System">
                                     <param id="0" name="Variable">counter_coins</param>
-                                    <param id="1" name="Value">1</param>
+                                    <param id="1" name="Value">2</param>
                                 </action>
                                 <action id="2" name="Set at X" sid="766145260395063" type="palavras">
                                     <param id="0" name="X">0</param>
@@ -230,7 +234,7 @@
                                 </action>
                                 <action id="-10" name="Add to" sid="859931346135412" type="System">
                                     <param id="0" name="Variable">counter_coins</param>
-                                    <param id="1" name="Value">1</param>
+                                    <param id="1" name="Value">4</param>
                                 </action>
                                 <action id="2" name="Set at X" sid="904801501376509" type="palavras">
                                     <param id="0" name="X">1</param>
@@ -261,7 +265,7 @@
                                 </action>
                                 <action id="-10" name="Add to" sid="452412922356444" type="System">
                                     <param id="0" name="Variable">counter_coins</param>
-                                    <param id="1" name="Value">1</param>
+                                    <param id="1" name="Value">5</param>
                                 </action>
                                 <action id="2" name="Set at X" sid="644104102315738" type="palavras">
                                     <param id="0" name="X">4</param>
@@ -321,7 +325,7 @@
                                 </action>
                                 <action id="-10" name="Add to" sid="252469656201125" type="System">
                                     <param id="0" name="Variable">counter_coins</param>
-                                    <param id="1" name="Value">1</param>
+                                    <param id="1" name="Value">2</param>
                                 </action>
                                 <action id="2" name="Set at X" sid="759157448098838" type="palavras">
                                     <param id="0" name="X">0</param>
@@ -352,7 +356,7 @@
                                 </action>
                                 <action id="-10" name="Add to" sid="222848814259326" type="System">
                                     <param id="0" name="Variable">counter_coins</param>
-                                    <param id="1" name="Value">1</param>
+                                    <param id="1" name="Value">4</param>
                                 </action>
                                 <action id="2" name="Set at X" sid="262720770287341" type="palavras">
                                     <param id="0" name="X">1</param>
@@ -383,7 +387,7 @@
                                 </action>
                                 <action id="-10" name="Add to" sid="470595986517906" type="System">
                                     <param id="0" name="Variable">counter_coins</param>
-                                    <param id="1" name="Value">1</param>
+                                    <param id="1" name="Value">5</param>
                                 </action>
                                 <action id="2" name="Set at X" sid="425344897406412" type="palavras">
                                     <param id="0" name="X">4</param>
@@ -524,7 +528,7 @@
                                 </action>
                                 <action id="-10" name="Add to" sid="999020271023818" type="System">
                                     <param id="0" name="Variable">counter_coins</param>
-                                    <param id="1" name="Value">1</param>
+                                    <param id="1" name="Value">4</param>
                                 </action>
                                 <action id="2" name="Set at X" sid="981249971665453" type="palavras">
                                     <param id="0" name="X">2</param>
@@ -555,7 +559,7 @@
                                 </action>
                                 <action id="-10" name="Add to" sid="512755162146050" type="System">
                                     <param id="0" name="Variable">counter_coins</param>
-                                    <param id="1" name="Value">1</param>
+                                    <param id="1" name="Value">5</param>
                                 </action>
                                 <action id="2" name="Set at X" sid="955228376118536" type="palavras">
                                     <param id="0" name="X">3</param>
@@ -639,10 +643,14 @@
                                 <condition id="-14" name="Compare variable" sid="178926023784690" type="System">
                                     <param id="0" name="Variable">counter_coins</param>
                                     <param id="1" name="Comparison">5</param>
-                                    <param id="2" name="Value">3</param>
+                                    <param id="2" name="Value">5</param>
                                 </condition>
                             </conditions>
                             <actions>
+                                <action id="-9" name="Set value" sid="693972529802985" type="System">
+                                    <param id="0" name="Variable">tip</param>
+                                    <param id="1" name="Value">int(random(0,4))</param>
+                                </action>
                                 <action id="-15" name="Set visible" sid="255203914527602" type="tip">
                                     <param id="0" name="Visibility">1</param>
                                 </action>
@@ -651,7 +659,7 @@
                                 </action>
                                 <action id="-11" name="Subtract from" sid="622699645244990" type="System">
                                     <param id="0" name="Variable">counter_coins</param>
-                                    <param id="1" name="Value">3</param>
+                                    <param id="1" name="Value">5</param>
                                 </action>
                                 <action id="0" name="Set text" sid="544628332897165" type="Moedas">
                                     <param id="0" name="Text">counter_coins</param>

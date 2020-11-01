@@ -1110,6 +1110,114 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="mar" sid="378205848807658">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="990869356870808" speed="5">
+                    <frame duration="1" hotspotX="0.786667" hotspotY="1.34" original-source="D:\Users\aghat\Documents\Uni\LPE\assets\mar.png">
+                        <collision-poly>
+                            <point x="0.0114943" y="0.110266" />
+                            <point x="0.785441" y="0.0152091" />
+                            <point x="0.989783" y="0.893536" />
+                            <point x="0.785441" y="0.988593" />
+                            <point x="0.550447" y="0.984791" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ar" sid="110494277328182">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="457603406580631" speed="5">
+                    <frame duration="1" hotspotX="1.24" hotspotY="1.36" original-source="D:\Users\aghat\Documents\Uni\LPE\assets\ar.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="amor" sid="317736782196651">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="282885519632089" speed="5">
+                    <frame duration="1" hotspotX="0.59" hotspotY="1.34" original-source="D:\Users\aghat\Documents\Uni\LPE\assets\amor.png">
+                        <collision-poly>
+                            <point x="0.0105566" y="0.0846154" />
+                            <point x="0.590211" y="0.00769231" />
+                            <point x="0.99904" y="0.769231" />
+                            <point x="0.744722" y="0.873077" />
+                            <point x="0.590211" y="0.992308" />
+                            <point x="0.40595" y="0.992308" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="asa" sid="315638840068863">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="611098647472717" speed="5">
+                    <frame duration="1" hotspotX="0.793333" hotspotY="1.34" original-source="D:\Users\aghat\Documents\Uni\LPE\assets\asa.png">
+                        <collision-poly>
+                            <point x="0.0202788" y="0.0615385" />
+                            <point x="0.793409" y="0.00769231" />
+                            <point x="0.993663" y="0.861538" />
+                            <point x="0.793409" y="0.992308" />
+                            <point x="0.548796" y="0.996154" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="soma" sid="457991646675168">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="220704804823291" speed="5">
+                    <frame duration="1" hotspotX="0.61" hotspotY="1.34" original-source="D:\Users\aghat\Documents\Uni\LPE\assets\soma.png">
+                        <collision-poly>
+                            <point x="0.0211132" y="0.0461539" />
+                            <point x="0.610365" y="0.00769231" />
+                            <point x="0.996161" y="0.861538" />
+                            <point x="0.794626" y="0.992308" />
+                            <point x="0.426104" y="0.992308" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="amora" sid="609912760231001">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="380033469862870" speed="5">
+                    <frame duration="1" hotspotX="0.544" hotspotY="1.2" original-source="D:\Users\aghat\Documents\Uni\LPE\assets\amora.png">
+                        <collision-poly>
+                            <point x="0.000746826" y="0.261538" />
+                            <point x="0.54593" y="0.00769231" />
+                            <point x="0.999253" y="0.734615" />
+                            <point x="0.871546" y="0.992308" />
+                            <point x="0.223301" y="0.976923" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letraA2" sid="969151804593585">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="386750077369593" speed="5">
+                    <frame duration="1" hotspotX="0.52" hotspotY="0.5" original-source="D:\Users\aghat\Documents\Uni\LPE\letterA.png">
+                        <collision-poly>
+                            <point x="0.0733591" y="0.05" />
+                            <point x="0.513514" y="0.00769231" />
+                            <point x="0.942085" y="0.0653846" />
+                            <point x="0.996139" y="0.5" />
+                            <point x="0.942085" y="0.934615" />
+                            <point x="0.513514" y="0.996154" />
+                            <point x="0.0733591" y="0.95" />
+                            <point x="0.003861" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -1117,12 +1225,14 @@
         <layout>Instrução.xml</layout>
         <layout>Instrução_2.xml</layout>
         <layout>Nivel_1.xml</layout>
+        <layout>Nivel_2.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event_Tela_Inicial.xml</event-sheet>
         <event-sheet>Event_Instrução.xml</event-sheet>
         <event-sheet>Event_Instrução_2.xml</event-sheet>
         <event-sheet>Event_Nivel_1.xml</event-sheet>
+        <event-sheet>Event_Nivel_2.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="6" />
