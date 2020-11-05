@@ -158,12 +158,12 @@
         </object-type>
         <object-type name="Dica1" sid="149841930873436">
             <plugin id="TiledBg" />
-            <texture original-source="D:\Users\aghat\Documents\Uni\LPE\T2 - Tela de Instruções\example_print.png" />
+            <texture original-source="C:\Users\gleis\Downloads\imagens instyrrru\dica1.PNG" />
         </object-type>
         <object-type name="Dicas" sid="676953309434393">
             <plugin id="Text" />
         </object-type>
-        <object-type name="SetaIncial" sid="566270374117772">
+        <object-type name="Setavoltar" sid="566270374117772">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="317582087077072" speed="5">
@@ -1218,10 +1218,276 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="one" sid="333510988118133">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="632486796431199" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gleis\Downloads\one.png">
+                        <collision-poly>
+                            <point x="0.107422" y="0.107422" />
+                            <point x="0.5" y="0" />
+                            <point x="0.892578" y="0.107422" />
+                            <point x="0.998047" y="0.5" />
+                            <point x="0.898438" y="0.898438" />
+                            <point x="0.5" y="1" />
+                            <point x="0.101563" y="0.898438" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="two" sid="346657734033219">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="789229374055755" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gleis\Downloads\two.png">
+                        <collision-poly>
+                            <point x="0.107422" y="0.107422" />
+                            <point x="0.5" y="0" />
+                            <point x="0.890625" y="0.109375" />
+                            <point x="0.998047" y="0.5" />
+                            <point x="0.898438" y="0.898438" />
+                            <point x="0.5" y="1" />
+                            <point x="0.101563" y="0.898438" />
+                            <point x="0.00195313" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tree" sid="649196650083532">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="346195706746152" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gleis\Downloads\three.png">
+                        <collision-poly>
+                            <point x="0.107422" y="0.107422" />
+                            <point x="0.5" y="0" />
+                            <point x="0.890625" y="0.109375" />
+                            <point x="0.998047" y="0.5" />
+                            <point x="0.898438" y="0.898438" />
+                            <point x="0.5" y="1" />
+                            <point x="0.101563" y="0.898438" />
+                            <point x="0.00195313" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="four" sid="802260051566168">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="460822170385433" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gleis\Downloads\four.png">
+                        <collision-poly>
+                            <point x="0.107422" y="0.107422" />
+                            <point x="0.5" y="0" />
+                            <point x="0.890625" y="0.109375" />
+                            <point x="0.998047" y="0.5" />
+                            <point x="0.898438" y="0.898438" />
+                            <point x="0.5" y="1" />
+                            <point x="0.101563" y="0.898438" />
+                            <point x="0.00195313" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="five" sid="847355403981182">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="956003700395543" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gleis\Downloads\five.png">
+                        <collision-poly>
+                            <point x="0.107422" y="0.107422" />
+                            <point x="0.5" y="0" />
+                            <point x="0.890625" y="0.109375" />
+                            <point x="0.998047" y="0.5" />
+                            <point x="0.898438" y="0.898438" />
+                            <point x="0.5" y="1" />
+                            <point x="0.101563" y="0.898438" />
+                            <point x="0.00195313" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="instru1" sid="721571818346992">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="399902483965736" speed="5">
+                    <frame duration="1" hotspotX="0.500289" hotspotY="0.5" original-source="C:\Users\gleis\Downloads\imagens instyrrru\dica1.PNG" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="instru2" sid="664100741263313">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="580137780429905" speed="5">
+                    <frame duration="1" hotspotX="0.500289" hotspotY="0.5" original-source="C:\Users\gleis\Downloads\imagens instyrrru\dica2.PNG" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="instru3" sid="881497924475866">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="693351959888957" speed="5">
+                    <frame duration="1" hotspotX="0.500579" hotspotY="0.5" original-source="C:\Users\gleis\Downloads\imagens instyrrru\dica3.PNG" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="instru4" sid="904165938411896">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="667650696216408" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gleis\Downloads\imagens instyrrru\dica4.PNG" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="instru5" sid="798778992478552">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="849056583341983" speed="5">
+                    <frame duration="1" hotspotX="0.500289" hotspotY="0.5" original-source="C:\Users\gleis\Downloads\imagens instyrrru\dica5.PNG" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite8" sid="426211769460472">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="111013258497323" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\gleis\Downloads\imagens instyrrru\dica6.PNG" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="instru6" sid="940697834141407">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="217050427565242" speed="5">
+                    <frame duration="1" hotspotX="0.50029" hotspotY="0.5" original-source="C:\Users\gleis\Downloads\imagens instyrrru\dica6.PNG" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="dicas1" sid="664134993683270">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="871101884474645" speed="5">
+                    <frame duration="1" hotspotX="0.52" hotspotY="0.5" original-source="C:\Users\fabii\Desktop\LPE\Design\Letras\S.png">
+                        <collision-poly>
+                            <point x="0.0810811" y="0.046332" />
+                            <point x="0.517375" y="0.003861" />
+                            <point x="0.938224" y="0.0617761" />
+                            <point x="0.996139" y="0.50193" />
+                            <point x="0.934363" y="0.938224" />
+                            <point x="0.517375" y="0.992278" />
+                            <point x="0.0810811" y="0.957529" />
+                            <point x="0.003861" y="0.50193" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="dicaE" sid="225186847467576">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="678507164651833" speed="5">
+                    <frame duration="1" hotspotX="0.48" hotspotY="0.5" original-source="C:\Users\fabii\Desktop\LPE\Design\Letras\E.png">
+                        <collision-poly>
+                            <point x="0.056213" y="0.108331" />
+                            <point x="0.481509" y="0.0229433" />
+                            <point x="0.928994" y="0.0860558" />
+                            <point x="0.973373" y="0.509281" />
+                            <point x="0.917899" y="0.921369" />
+                            <point x="0.481509" y="0.973344" />
+                            <point x="0.0636095" y="0.902807" />
+                            <point x="0.0266272" y="0.509281" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="dicaP" sid="230606157455992">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="269534014494577" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\fabii\Desktop\LPE\Design\Letras\P.png">
+                        <collision-poly>
+                            <point x="0.0540541" y="0.0733591" />
+                            <point x="0.490348" y="0.00772201" />
+                            <point x="0.938224" y="0.0617761" />
+                            <point x="0.996139" y="0.498069" />
+                            <point x="0.942085" y="0.938224" />
+                            <point x="0.490348" y="0.996139" />
+                            <point x="0.050193" y="0.926641" />
+                            <point x="0.003861" y="0.498069" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="dicaR2" sid="389656889617599">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="209438309859045" speed="5">
+                    <frame duration="1" hotspotX="0.48" hotspotY="0.5" original-source="C:\Users\fabii\Desktop\LPE\Design\Letras\R.png">
+                        <collision-poly>
+                            <point x="0.0540541" y="0.0733591" />
+                            <point x="0.482625" y="0.00772201" />
+                            <point x="0.930502" y="0.0579151" />
+                            <point x="0.996139" y="0.50193" />
+                            <point x="0.930502" y="0.945946" />
+                            <point x="0.482625" y="0.996139" />
+                            <point x="0.0540541" y="0.930502" />
+                            <point x="0.003861" y="0.50193" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="dicaM2" sid="107187033951309">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="629237740749376" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\aghat\Documents\Uni\LPE\letterM.png">
+                        <collision-poly>
+                            <point x="0.0849421" y="0.046332" />
+                            <point x="0.509652" y="0.00772201" />
+                            <point x="0.926641" y="0.0540541" />
+                            <point x="0.996139" y="0.494208" />
+                            <point x="0.934363" y="0.945946" />
+                            <point x="0.509652" y="0.996139" />
+                            <point x="0.0772201" y="0.953668" />
+                            <point x="0.003861" y="0.494208" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="dicaS2" sid="133661321997074">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="240426200377137" speed="5">
+                    <frame duration="1" hotspotX="0.52" hotspotY="0.5" original-source="C:\Users\fabii\Desktop\LPE\Design\Letras\S.png">
+                        <collision-poly>
+                            <point x="0.0810811" y="0.046332" />
+                            <point x="0.517375" y="0.003861" />
+                            <point x="0.938224" y="0.0617761" />
+                            <point x="0.996139" y="0.50193" />
+                            <point x="0.934363" y="0.938224" />
+                            <point x="0.517375" y="0.992278" />
+                            <point x="0.0810811" y="0.957529" />
+                            <point x="0.003861" y="0.50193" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Tela_Inicial.xml</layout>
+        <layout>Tela_nivel.xml</layout>
         <layout>Instrução.xml</layout>
         <layout>Instrução_2.xml</layout>
         <layout>Nivel_1.xml</layout>
@@ -1233,6 +1499,7 @@
         <event-sheet>Event_Instrução_2.xml</event-sheet>
         <event-sheet>Event_Nivel_1.xml</event-sheet>
         <event-sheet>Event_Nivel_2.xml</event-sheet>
+        <event-sheet>Event_Tela_nivel.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="6" />

@@ -106,6 +106,12 @@
                         <action id="-15" name="Set visible" sid="167699085574086" type="success">
                             <param id="0" name="Visibility">1</param>
                         </action>
+                        <action id="-16" name="Wait" sid="274933731588495" type="System">
+                            <param id="0" name="Seconds">3.0</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="754327931739917" type="System">
+                            <param id="0" name="Layout">Nivel_2</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="783786524927720">
@@ -647,31 +653,30 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-9" name="Set value" sid="693972529802985" type="System">
-                                    <param id="0" name="Variable">tip</param>
-                                    <param id="1" name="Value">int(random(0,4))</param>
-                                </action>
-                                <action id="-15" name="Set visible" sid="255203914527602" type="tip">
+                                <action id="-15" name="Set visible" sid="554627763639731" type="dicaE">
                                     <param id="0" name="Visibility">1</param>
                                 </action>
-                                <action id="-15" name="Set visible" sid="584189399261871" type="tip_foot">
+                                <action id="-15" name="Set visible" sid="352421310918676" type="dicas1">
                                     <param id="0" name="Visibility">1</param>
                                 </action>
-                                <action id="-11" name="Subtract from" sid="622699645244990" type="System">
+                                <action id="-15" name="Set visible" sid="799007923254255" type="dicaP">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="101315329507068" type="System">
+                                    <param id="0" name="Seconds">6.0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="551810990806378" type="dicaE">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="128906445743393" type="dicas1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="547902701294373" type="dicaP">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-11" name="Subtract from" sid="794434526618068" type="System">
                                     <param id="0" name="Variable">counter_coins</param>
                                     <param id="1" name="Value">5</param>
-                                </action>
-                                <action id="0" name="Set text" sid="544628332897165" type="Moedas">
-                                    <param id="0" name="Text">counter_coins</param>
-                                </action>
-                                <action id="-16" name="Wait" sid="515630572872748" type="System">
-                                    <param id="0" name="Seconds">4.0</param>
-                                </action>
-                                <action id="-15" name="Set visible" sid="954064329996352" type="tip">
-                                    <param id="0" name="Visibility">0</param>
-                                </action>
-                                <action id="-15" name="Set visible" sid="131404259358823" type="tip_foot">
-                                    <param id="0" name="Visibility">0</param>
                                 </action>
                             </actions>
                         </event-block>

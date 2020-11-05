@@ -10,10 +10,18 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Nivel_1</layout>
-        <layout order="2">Nivel_2</layout>
-        <event-sheet active="1" order="1">Event_Nivel_1</event-sheet>
-        <event-sheet order="3">Event_Nivel_2</event-sheet>
+        <layout order="1">Nivel_1</layout>
+        <layout active="1" order="3">Nivel_2</layout>
+        <layout order="5">Instrução</layout>
+        <layout order="6">Instrução_2</layout>
+        <layout order="9">Tela_Inicial</layout>
+        <layout order="10">Tela_nivel</layout>
+        <event-sheet order="2">Event_Nivel_1</event-sheet>
+        <event-sheet order="4">Event_Nivel_2</event-sheet>
+        <event-sheet order="7">Event_Instrução_2</event-sheet>
+        <event-sheet order="8">Event_Instrução</event-sheet>
+        <event-sheet order="11">Event_Tela_nivel</event-sheet>
+        <event-sheet order="12">Event_Tela_Inicial</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -33,7 +41,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Iniciar/" />
         <folder expanded="1" path="animation-folder/Instrução/" />
         <folder expanded="1" path="animation-folder/Configuração/" />
-        <folder expanded="1" path="animation-folder/SetaIncial/" />
+        <folder expanded="1" path="animation-folder/Setavoltar/" />
         <folder expanded="1" path="animation-folder/SetaPassar/" />
         <folder expanded="1" path="animation-folder/letraA/" />
         <folder expanded="1" path="animation-folder/letraB/" />
@@ -91,5 +99,23 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/soma/" />
         <folder expanded="1" path="animation-folder/amora/" />
         <folder expanded="1" path="animation-folder/letraA2/" />
+        <folder expanded="1" path="animation-folder/one/" />
+        <folder expanded="1" path="animation-folder/two/" />
+        <folder expanded="1" path="animation-folder/tree/" />
+        <folder expanded="1" path="animation-folder/four/" />
+        <folder expanded="1" path="animation-folder/five/" />
+        <folder expanded="1" path="animation-folder/instru1/" />
+        <folder expanded="1" path="animation-folder/instru2/" />
+        <folder expanded="1" path="animation-folder/instru3/" />
+        <folder expanded="1" path="animation-folder/instru4/" />
+        <folder expanded="1" path="animation-folder/instru5/" />
+        <folder expanded="1" path="animation-folder/Sprite8/" />
+        <folder expanded="1" path="animation-folder/instru6/" />
+        <folder expanded="1" path="animation-folder/dicas1/" />
+        <folder expanded="1" path="animation-folder/dicaE/" />
+        <folder expanded="1" path="animation-folder/dicaP/" />
+        <folder expanded="1" path="animation-folder/dicaR2/" />
+        <folder expanded="1" path="animation-folder/dicaM2/" />
+        <folder expanded="1" path="animation-folder/dicaS2/" />
     </folders-expanded>
 </c2uistate>

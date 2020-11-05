@@ -6,7 +6,7 @@
         <event-block any="1" sid="894065697025574">
             <conditions>
                 <condition id="7" name="Cursor is over object" sid="853251124039201" type="Mouse">
-                    <param id="0" name="Object">SetaIncial</param>
+                    <param id="0" name="Object">Setavoltar</param>
                 </condition>
                 <condition id="7" name="Cursor is over object" sid="427220067665138" type="Mouse">
                     <param id="0" name="Object">SetaPassar</param>
@@ -21,7 +21,7 @@
         <event-block sid="612290906300845">
             <conditions>
                 <condition id="7" inverted="1" name="Cursor is over object" sid="876262679513793" type="Mouse">
-                    <param id="0" name="Object">SetaIncial</param>
+                    <param id="0" name="Object">Setavoltar</param>
                 </condition>
                 <condition id="7" inverted="1" name="Cursor is over object" sid="258506264220772" type="Mouse">
                     <param id="0" name="Object">SetaPassar</param>
@@ -38,7 +38,7 @@
                 <condition id="6" name="On object clicked" sid="757258628527944" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
                     <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">SetaIncial</param>
+                    <param id="2" name="Object clicked">Setavoltar</param>
                 </condition>
             </conditions>
             <actions>

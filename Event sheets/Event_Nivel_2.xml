@@ -629,58 +629,54 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="774717766246489" title="Tips2">
+        <event-group description="" sid="774717766246489" title="Tips2" />
+        <event-block sid="230990172122415">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="975330343891027" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">dica</param>
+                </condition>
+            </conditions>
+            <actions />
             <sub-events>
-                <event-block sid="205270658337792">
+                <event-block sid="754070382528653">
                     <conditions>
-                        <condition id="6" name="On object clicked" sid="406766610168369" type="Mouse">
-                            <param id="0" name="Mouse button">0</param>
-                            <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">dica</param>
+                        <condition id="-14" name="Compare variable" sid="923034481247108" type="System">
+                            <param id="0" name="Variable">counter_coins</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">5</param>
                         </condition>
                     </conditions>
-                    <actions />
-                    <sub-events>
-                        <event-block sid="777090275822224">
-                            <conditions>
-                                <condition id="-14" name="Compare variable" sid="552623899417616" type="System">
-                                    <param id="0" name="Variable">counter_coins</param>
-                                    <param id="1" name="Comparison">5</param>
-                                    <param id="2" name="Value">5</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-9" name="Set value" sid="442123199544400" type="System">
-                                    <param id="0" name="Variable">tip</param>
-                                    <param id="1" name="Value">int(random(0,4))</param>
-                                </action>
-                                <action id="-15" name="Set visible" sid="625717058985753" type="tip">
-                                    <param id="0" name="Visibility">1</param>
-                                </action>
-                                <action id="-15" name="Set visible" sid="395185611424907" type="tip_foot">
-                                    <param id="0" name="Visibility">1</param>
-                                </action>
-                                <action id="-11" name="Subtract from" sid="712663846428536" type="System">
-                                    <param id="0" name="Variable">counter_coins</param>
-                                    <param id="1" name="Value">5</param>
-                                </action>
-                                <action id="0" name="Set text" sid="632922462694603" type="Moedas">
-                                    <param id="0" name="Text">counter_coins</param>
-                                </action>
-                                <action id="-16" name="Wait" sid="187118548838835" type="System">
-                                    <param id="0" name="Seconds">4.0</param>
-                                </action>
-                                <action id="-15" name="Set visible" sid="198947084307119" type="tip">
-                                    <param id="0" name="Visibility">0</param>
-                                </action>
-                                <action id="-15" name="Set visible" sid="407264555866284" type="tip_foot">
-                                    <param id="0" name="Visibility">0</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="939390686093675" type="dicaM2">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="941400953371578" type="dicaR2">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="688369003124047" type="dicaS2">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="591899184414484" type="System">
+                            <param id="0" name="Seconds">6.0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="373328416797644" type="dicaM2">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="521684249823439" type="dicaR2">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="340539392287695" type="dicaS2">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="346799098194150" type="System">
+                            <param id="0" name="Variable">counter_coins</param>
+                            <param id="1" name="Value">5</param>
+                        </action>
+                    </actions>
                 </event-block>
             </sub-events>
-        </event-group>
+        </event-block>
     </events>
 </c2eventsheet>
