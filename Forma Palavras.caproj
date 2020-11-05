@@ -1199,25 +1199,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="letraA2" sid="969151804593585">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="386750077369593" speed="5">
-                    <frame duration="1" hotspotX="0.52" hotspotY="0.5" original-source="D:\Users\aghat\Documents\Uni\LPE\letterA.png">
-                        <collision-poly>
-                            <point x="0.0733591" y="0.05" />
-                            <point x="0.513514" y="0.00769231" />
-                            <point x="0.942085" y="0.0653846" />
-                            <point x="0.996139" y="0.5" />
-                            <point x="0.942085" y="0.934615" />
-                            <point x="0.513514" y="0.996154" />
-                            <point x="0.0733591" y="0.95" />
-                            <point x="0.003861" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="one" sid="333510988118133">
             <plugin id="Sprite" />
             <animation-folder>
@@ -1483,6 +1464,73 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="teia" sid="747615125680135">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="131482604588075" speed="5">
+                    <frame duration="1" hotspotX="2.635" hotspotY="1.92308" original-source="D:\Users\aghat\Documents\Uni\LPE\assets\teia.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="setaPalavra" sid="666528412119332">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="722629935784874" speed="5">
+                    <frame duration="1" hotspotX="2.635" hotspotY="1.92308" original-source="D:\Users\aghat\Documents\Uni\LPE\assets\setaPalavra.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sereia" sid="714983972136966">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="449865501268871" speed="5">
+                    <frame duration="1" hotspotX="2.09732" hotspotY="1.88679" original-source="D:\Users\aghat\Documents\Uni\LPE\assets\sereia.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="rei" sid="846538101963424">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="673043929151357" speed="5">
+                    <frame duration="1" hotspotX="3.51333" hotspotY="1.88679" original-source="D:\Users\aghat\Documents\Uni\LPE\assets\rei.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tia" sid="580265373417295">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="268232795917338" speed="5">
+                    <frame duration="1" hotspotX="3.15132" hotspotY="1.92308" original-source="D:\Users\aghat\Documents\Uni\LPE\assets\tia.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ser" sid="642271230738355">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="471924718293262" speed="5">
+                    <frame duration="1" hotspotX="4.16667" hotspotY="1.88679" original-source="D:\Users\aghat\Documents\Uni\LPE\assets\ser.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="letraA2" sid="660944254037232">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="267495174184403" speed="5">
+                    <frame duration="1" hotspotX="0.52" hotspotY="0.5" original-source="D:\Users\aghat\Documents\Uni\LPE\letterA.png">
+                        <collision-poly>
+                            <point x="0.0733591" y="0.05" />
+                            <point x="0.513514" y="0.00769231" />
+                            <point x="0.942085" y="0.0653846" />
+                            <point x="0.996139" y="0.5" />
+                            <point x="0.942085" y="0.934615" />
+                            <point x="0.513514" y="0.996154" />
+                            <point x="0.0733591" y="0.95" />
+                            <point x="0.003861" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -1492,6 +1540,7 @@
         <layout>Instrução_2.xml</layout>
         <layout>Nivel_1.xml</layout>
         <layout>Nivel_2.xml</layout>
+        <layout>Nivel_3.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event_Tela_Inicial.xml</event-sheet>
@@ -1500,6 +1549,7 @@
         <event-sheet>Event_Nivel_1.xml</event-sheet>
         <event-sheet>Event_Nivel_2.xml</event-sheet>
         <event-sheet>Event_Tela_nivel.xml</event-sheet>
+        <event-sheet>Event_Nivel_3.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="6" />

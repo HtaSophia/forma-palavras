@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>Nivel_2</name>
-    <sid>922666356362092</sid>
-    <event-sheet>Event_Nivel_2</event-sheet>
+    <name>Nivel_3</name>
+    <sid>421996924528655</sid>
+    <event-sheet>Event_Nivel_3</event-sheet>
     <size>
         <width>1708</width>
         <height>960</height>
@@ -13,7 +13,7 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="Layer 0" sid="238444017067634">
+        <layer name="Layer 0" sid="466721333481665">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>0</transparent>
@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Background" uid="61">
+                <instance type="Background" uid="139">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -37,8 +37,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>0</x>
-                        <y>0</y>
+                        <x>-1</x>
+                        <y>-2</y>
                         <z>0</z>
                         <width>866.082641602</width>
                         <height>483.394989014</height>
@@ -49,7 +49,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Vazio" uid="83">
+                <instance type="Vazio" uid="140">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -59,8 +59,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>614</x>
-                        <y>335</y>
+                        <x>613</x>
+                        <y>333</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
@@ -71,7 +71,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Vazio" uid="84">
+                <instance type="Vazio" uid="141">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -81,8 +81,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>664</x>
-                        <y>335</y>
+                        <x>663</x>
+                        <y>333</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
@@ -93,7 +93,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Vazio" uid="85">
+                <instance type="Vazio" uid="142">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -103,8 +103,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>714</x>
-                        <y>335</y>
+                        <x>713</x>
+                        <y>333</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
@@ -115,7 +115,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Vazio" uid="86">
+                <instance type="Vazio" uid="143">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -125,8 +125,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>764</x>
-                        <y>335</y>
+                        <x>763</x>
+                        <y>333</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
@@ -137,7 +137,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Vazio" uid="94">
+                <instance type="Vazio" uid="144">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -147,8 +147,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>68</x>
-                        <y>400</y>
+                        <x>67</x>
+                        <y>398</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
@@ -159,7 +159,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Vazio" uid="95">
+                <instance type="Vazio" uid="145">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -169,8 +169,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>118</x>
-                        <y>400</y>
+                        <x>117</x>
+                        <y>398</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
@@ -181,7 +181,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Vazio" uid="96">
+                <instance type="Vazio" uid="146">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -191,8 +191,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>168</x>
-                        <y>400</y>
+                        <x>167</x>
+                        <y>398</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
@@ -203,7 +203,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Vazio" uid="97">
+                <instance type="Vazio" uid="147">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -213,8 +213,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>168</x>
-                        <y>334</y>
+                        <x>167</x>
+                        <y>332</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
@@ -225,7 +225,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Vazio" uid="98">
+                <instance type="Vazio" uid="148">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -235,8 +235,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>68</x>
-                        <y>265</y>
+                        <x>67</x>
+                        <y>263</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
@@ -247,7 +247,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Vazio" uid="99">
+                <instance type="Vazio" uid="149">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -257,8 +257,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>118</x>
-                        <y>265</y>
+                        <x>117</x>
+                        <y>263</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
@@ -269,7 +269,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Vazio" uid="100">
+                <instance type="Vazio" uid="150">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -279,8 +279,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>614</x>
-                        <y>400</y>
+                        <x>613</x>
+                        <y>398</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
@@ -291,7 +291,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Vazio" uid="101">
+                <instance type="Vazio" uid="151">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -301,8 +301,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>664</x>
-                        <y>400</y>
+                        <x>663</x>
+                        <y>398</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
@@ -313,7 +313,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Vazio" uid="102">
+                <instance type="Vazio" uid="152">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -323,8 +323,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>714</x>
-                        <y>400</y>
+                        <x>713</x>
+                        <y>398</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
@@ -335,7 +335,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Vazio" uid="103">
+                <instance type="Vazio" uid="153">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -345,8 +345,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>764</x>
-                        <y>400</y>
+                        <x>763</x>
+                        <y>398</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
@@ -357,7 +357,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Vazio" uid="104">
+                <instance type="Vazio" uid="154">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -367,8 +367,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>814</x>
-                        <y>400</y>
+                        <x>813</x>
+                        <y>398</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
@@ -379,7 +379,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Vazio" uid="105">
+                <instance type="Vazio" uid="155">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -389,8 +389,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>614</x>
-                        <y>265</y>
+                        <x>613</x>
+                        <y>263</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
@@ -401,7 +401,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Vazio" uid="106">
+                <instance type="Vazio" uid="156">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -411,8 +411,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>664</x>
-                        <y>265</y>
+                        <x>663</x>
+                        <y>263</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
@@ -423,7 +423,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Vazio" uid="107">
+                <instance type="Vazio" uid="157">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -433,8 +433,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>714</x>
-                        <y>265</y>
+                        <x>713</x>
+                        <y>263</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
@@ -445,7 +445,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Vazio" uid="108">
+                <instance type="Vazio" uid="158">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -455,8 +455,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>764</x>
-                        <y>265</y>
+                        <x>763</x>
+                        <y>263</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
@@ -467,7 +467,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Reiniciar" uid="109">
+                <instance type="Reiniciar" uid="159">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -477,8 +477,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>759</x>
-                        <y>72</y>
+                        <x>758</x>
+                        <y>70</y>
                         <z>0</z>
                         <width>54.651996613</width>
                         <height>54.651996613</height>
@@ -489,7 +489,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="dica" uid="110">
+                <instance type="dica" uid="160">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -499,8 +499,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>411</x>
-                        <y>407</y>
+                        <x>401</x>
+                        <y>405</y>
                         <z>0</z>
                         <width>33.293575287</width>
                         <height>33.293575287</height>
@@ -511,7 +511,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text" uid="111">
+                <instance type="Text" uid="161">
                     <properties>
                         <text>Ganhe 5 moedas para liberar a dica!</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -526,8 +526,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>317</x>
-                        <y>435</y>
+                        <x>307</x>
+                        <y>433</y>
                         <z>0</z>
                         <width>200.454650879</width>
                         <height>22</height>
@@ -538,7 +538,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text" uid="112">
+                <instance type="Text" uid="162">
                     <properties>
                         <text>Resetar</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -553,8 +553,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>735</x>
-                        <y>109</y>
+                        <x>734</x>
+                        <y>107</y>
                         <z>0</z>
                         <width>50</width>
                         <height>55</height>
@@ -565,7 +565,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="success" uid="118">
+                <instance type="success" uid="163">
                     <properties>
                         <text>Parabéns!</text>
                         <initial-visibility>Invisible</initial-visibility>
@@ -580,8 +580,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>378</x>
-                        <y>186</y>
+                        <x>377</x>
+                        <y>184</y>
                         <z>0</z>
                         <width>77.271697998</width>
                         <height>30</height>
@@ -592,7 +592,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="inicio" uid="119">
+                <instance type="inicio" uid="164">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -602,8 +602,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>247</x>
-                        <y>150</y>
+                        <x>270</x>
+                        <y>148</y>
                         <z>0</z>
                         <width>5</width>
                         <height>50</height>
@@ -614,7 +614,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="moeda" uid="123">
+                <instance type="moeda" uid="165">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -624,8 +624,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>58</x>
-                        <y>60</y>
+                        <x>57</x>
+                        <y>58</y>
                         <z>0</z>
                         <width>29.531158447</width>
                         <height>29.531158447</height>
@@ -636,7 +636,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Moedas" uid="124">
+                <instance type="Moedas" uid="166">
                     <properties>
                         <text>0</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -651,8 +651,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>80</x>
-                        <y>50</y>
+                        <x>79</x>
+                        <y>48</y>
                         <z>0</z>
                         <width>43</width>
                         <height>45</height>
@@ -663,7 +663,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="fechar" uid="125">
+                <instance type="fechar" uid="167">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -673,8 +673,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>838</x>
-                        <y>21</y>
+                        <x>837</x>
+                        <y>19</y>
                         <z>0</z>
                         <width>30</width>
                         <height>30</height>
@@ -685,7 +685,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="letraM" uid="64">
+                <instance type="letraR" uid="169">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -695,29 +695,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>247</x>
-                        <y>65</y>
-                        <z>0</z>
-                        <width>50</width>
-                        <height>50</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="letraR" uid="68">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>317</x>
+                        <x>340</x>
                         <y>65</y>
                         <z>0</z>
                         <width>50</width>
@@ -729,7 +707,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="letraA" uid="74">
+                <instance type="letraA" uid="170">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -739,7 +717,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>387</x>
+                        <x>410</x>
                         <y>65</y>
                         <z>0</z>
                         <width>50</width>
@@ -751,7 +729,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="letraS" uid="75">
+                <instance type="letraS" uid="171">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -761,7 +739,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>457</x>
+                        <x>270</x>
                         <y>65</y>
                         <z>0</z>
                         <width>50</width>
@@ -773,7 +751,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="letraO" uid="78">
+                <instance type="Vazio" uid="173">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -783,30 +761,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>597</x>
-                        <y>65</y>
-                        <z>0</z>
-                        <width>50</width>
-                        <height>50</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Vazio" uid="113">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>68</x>
-                        <y>335</y>
+                        <x>67</x>
+                        <y>333</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
@@ -817,7 +773,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Vazio" uid="114">
+                <instance type="Vazio" uid="174">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -827,8 +783,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>118</x>
-                        <y>334</y>
+                        <x>117</x>
+                        <y>332</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
@@ -839,9 +795,9 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="mar" uid="88">
+                <instance type="letraE" uid="168">
                     <properties>
-                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -849,140 +805,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>161</x>
-                        <y>377</y>
-                        <z>0</z>
-                        <width>150</width>
-                        <height>50</height>
-                        <depth>0</depth>
-                        <hotspotX>0.786666691</hotspotX>
-                        <hotspotY>1.340000033</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="ar" uid="115">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>166</x>
-                        <y>309</y>
-                        <z>0</z>
-                        <width>100</width>
-                        <height>50</height>
-                        <depth>0</depth>
-                        <hotspotX>1.24000001</hotspotX>
-                        <hotspotY>1.360000014</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="amor" uid="116">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>706</x>
-                        <y>308</y>
-                        <z>0</z>
-                        <width>200</width>
-                        <height>50</height>
-                        <depth>0</depth>
-                        <hotspotX>0.589999974</hotspotX>
-                        <hotspotY>1.340000033</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="asa" uid="117">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>161</x>
-                        <y>443</y>
-                        <z>0</z>
-                        <width>150</width>
-                        <height>50</height>
-                        <depth>0</depth>
-                        <hotspotX>0.793333352</hotspotX>
-                        <hotspotY>1.340000033</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="soma" uid="120">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>710</x>
-                        <y>378</y>
-                        <z>0</z>
-                        <width>200</width>
-                        <height>50</height>
-                        <depth>0</depth>
-                        <hotspotX>0.610000014</hotspotX>
-                        <hotspotY>1.340000033</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="amora" uid="126">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>725</x>
-                        <y>436</y>
-                        <z>0</z>
-                        <width>250</width>
-                        <height>50</height>
-                        <depth>0</depth>
-                        <hotspotX>0.54400003</hotspotX>
-                        <hotspotY>1.200000048</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="dicaR2" uid="121">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>763.373657227</x>
-                        <y>400.209686279</y>
+                        <x>480</x>
+                        <y>65</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
@@ -993,9 +817,9 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="dicaM2" uid="122">
+                <instance type="letraI" uid="77">
                     <properties>
-                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -1003,8 +827,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>68.828369141</x>
-                        <y>335.664367676</y>
+                        <x>550</x>
+                        <y>65</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
@@ -1015,29 +839,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="dicaS2" uid="138">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>118.828613281</x>
-                        <y>400.209686279</y>
-                        <z>0</z>
-                        <width>50</width>
-                        <height>50</height>
-                        <depth>0</depth>
-                        <hotspotX>0.519999981</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="letraA2" uid="182">
+                <instance type="Vazio" uid="172">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1047,14 +849,168 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>527</x>
-                        <y>65</y>
+                        <x>167</x>
+                        <y>263</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
                         <depth>0</depth>
                         <hotspotX>0.519999981</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.479999989</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Vazio" uid="175">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>563</x>
+                        <y>398</y>
+                        <z>0</z>
+                        <width>50</width>
+                        <height>50</height>
+                        <depth>0</depth>
+                        <hotspotX>0.519999981</hotspotX>
+                        <hotspotY>0.479999989</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="teia" uid="177">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1114</x>
+                        <y>339</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>52</height>
+                        <depth>0</depth>
+                        <hotspotX>2.63499999</hotspotX>
+                        <hotspotY>1.923076868</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="setaPalavra" uid="176">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1114</x>
+                        <y>408</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>52</height>
+                        <depth>0</depth>
+                        <hotspotX>2.63499999</hotspotX>
+                        <hotspotY>1.923076868</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="sereia" uid="178">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1163</x>
+                        <y>473</y>
+                        <z>0</z>
+                        <width>298</width>
+                        <height>53</height>
+                        <depth>0</depth>
+                        <hotspotX>2.09731555</hotspotX>
+                        <hotspotY>1.886792421</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="rei" uid="179">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>567</x>
+                        <y>407</y>
+                        <z>0</z>
+                        <width>150</width>
+                        <height>53</height>
+                        <depth>0</depth>
+                        <hotspotX>3.513333321</hotspotX>
+                        <hotspotY>1.886792421</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tia" uid="180">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>519</x>
+                        <y>473</y>
+                        <z>0</z>
+                        <width>152</width>
+                        <height>52</height>
+                        <depth>0</depth>
+                        <hotspotX>3.151315689</hotspotX>
+                        <hotspotY>1.923076868</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="ser" uid="181">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>666</x>
+                        <y>338</y>
+                        <z>0</z>
+                        <width>150</width>
+                        <height>53</height>
+                        <depth>0</depth>
+                        <hotspotX>4.166666508</hotspotX>
+                        <hotspotY>1.886792421</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
