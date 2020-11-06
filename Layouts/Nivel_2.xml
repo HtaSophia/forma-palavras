@@ -569,7 +569,7 @@
                     <properties>
                         <text>Parabéns!</text>
                         <initial-visibility>Invisible</initial-visibility>
-                        <font>Arial,-16</font>
+                        <font>Unispace,-64,700,0</font>
                         <color>255,255,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -580,11 +580,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>378</x>
-                        <y>186</y>
+                        <x>229.816833496</x>
+                        <y>126.909622192</y>
                         <z>0</z>
-                        <width>77.271697998</width>
-                        <height>30</height>
+                        <width>366.364807129</width>
+                        <height>101.817825317</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>

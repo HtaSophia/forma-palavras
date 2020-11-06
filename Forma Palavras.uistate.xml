@@ -10,12 +10,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Nivel_1</layout>
-        <layout order="2">Nivel_2</layout>
-        <layout active="1" order="4">Nivel_3</layout>
-        <event-sheet order="1">Event_Nivel_1</event-sheet>
-        <event-sheet order="3">Event_Nivel_2</event-sheet>
-        <event-sheet order="5">Event_Nivel_3</event-sheet>
+        <layout order="1">Nivel_1</layout>
+        <layout active="1" order="3">Nivel_2</layout>
+        <layout order="5">Nivel_3</layout>
+        <layout order="8">Tela_Inicial</layout>
+        <event-sheet order="2">Event_Nivel_1</event-sheet>
+        <event-sheet order="4">Event_Nivel_2</event-sheet>
+        <event-sheet order="6">Event_Nivel_3</event-sheet>
+        <event-sheet order="7">Event_Tela_nivel</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -117,5 +119,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/tia/" />
         <folder expanded="1" path="animation-folder/ser/" />
         <folder expanded="1" path="animation-folder/letraA2/" />
+        <folder expanded="1" path="animation-folder/letraS3dica/" />
+        <folder expanded="1" path="animation-folder/letraRdica/" />
+        <folder expanded="1" path="animation-folder/letraTdica/" />
     </folders-expanded>
 </c2uistate>

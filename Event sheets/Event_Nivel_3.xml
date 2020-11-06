@@ -90,6 +90,14 @@
                             <param id="0" name="X">550</param>
                             <param id="1" name="Y">65</param>
                         </action>
+                        <action id="-3" name="Set position" sid="141586497885149" type="letraE2">
+                            <param id="0" name="X">203</param>
+                            <param id="1" name="Y">65</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="730155338017435" type="letraT">
+                            <param id="0" name="X">621</param>
+                            <param id="1" name="Y">65</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="684227146382153">
@@ -134,9 +142,9 @@
                         <condition id="6" name="On object clicked" sid="773072787987491" type="Mouse">
                             <param id="0" name="Mouse button">0</param>
                             <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">letraM</param>
+                            <param id="2" name="Object clicked">letraE</param>
                         </condition>
-                        <condition id="-2" name="Compare Y" sid="478286173839411" type="letraM">
+                        <condition id="-2" name="Compare Y" sid="478286173839411" type="letraE">
                             <param id="0" name="Comparison">1</param>
                             <param id="1" name="Y co-ordinate">inicio.Y</param>
                         </condition>
@@ -144,13 +152,67 @@
                     <actions>
                         <action id="-10" name="Add to" sid="438989180152016" type="System">
                             <param id="0" name="Variable">actualWord</param>
-                            <param id="1" name="Value"> &quot;m&quot;</param>
+                            <param id="1" name="Value"> &quot;e&quot;</param>
                         </action>
                         <action id="-10" name="Add to" sid="657708586585030" type="System">
                             <param id="0" name="Variable">letterCounter</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="-3" name="Set position" sid="421558122721853" type="letraM">
+                        <action id="-3" name="Set position" sid="421558122721853" type="letraE">
+                            <param id="0" name="X">inicio.X + (letterCounter * 70)</param>
+                            <param id="1" name="Y">inicio.Y</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="648335230046871">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="285613157984966" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">letraE2</param>
+                        </condition>
+                        <condition id="-2" name="Compare Y" sid="293990452246310" type="letraE2">
+                            <param id="0" name="Comparison">1</param>
+                            <param id="1" name="Y co-ordinate">inicio.Y</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="762884681651803" type="System">
+                            <param id="0" name="Variable">actualWord</param>
+                            <param id="1" name="Value"> &quot;e&quot;</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="287270237846124" type="System">
+                            <param id="0" name="Variable">letterCounter</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="425720882058231" type="letraE2">
+                            <param id="0" name="X">inicio.X + (letterCounter * 70)</param>
+                            <param id="1" name="Y">inicio.Y</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="877067104001396">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="437542748179173" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">letraT</param>
+                        </condition>
+                        <condition id="-2" name="Compare Y" sid="211281516766336" type="letraT">
+                            <param id="0" name="Comparison">1</param>
+                            <param id="1" name="Y co-ordinate">inicio.Y</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="511688673001646" type="System">
+                            <param id="0" name="Variable">actualWord</param>
+                            <param id="1" name="Value"> &quot;t&quot;</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="595060307651662" type="System">
+                            <param id="0" name="Variable">letterCounter</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="484132903987051" type="letraT">
                             <param id="0" name="X">inicio.X + (letterCounter * 70)</param>
                             <param id="1" name="Y">inicio.Y</param>
                         </action>
@@ -188,16 +250,16 @@
                                 <condition id="-8" name="Compare two values" sid="943243425233643" type="System">
                                     <param id="0" name="First value">actualWord</param>
                                     <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Second value">&quot;ar&quot;</param>
+                                    <param id="2" name="Second value">&quot;ser&quot;</param>
                                 </condition>
                                 <condition id="0" name="Compare at X" sid="385469714132519" type="palavras">
                                     <param id="0" name="X">0</param>
                                     <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">&quot;ar&quot;</param>
+                                    <param id="2" name="Value">&quot;ser&quot;</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-15" name="Set visible" sid="600093727026942" type="ar">
+                                <action id="-15" name="Set visible" sid="600093727026942" type="ser">
                                     <param id="0" name="Visibility">1</param>
                                 </action>
                                 <action id="-10" name="Add to" sid="115112825603196" type="System">
@@ -214,63 +276,32 @@
                                 </action>
                             </actions>
                         </event-block>
-                        <event-block sid="825073290302349">
+                        <event-block sid="323012214336899">
                             <conditions>
-                                <condition id="-8" name="Compare two values" sid="636731102035826" type="System">
+                                <condition id="-8" name="Compare two values" sid="397012391058606" type="System">
                                     <param id="0" name="First value">actualWord</param>
                                     <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Second value">&quot;mar&quot;</param>
+                                    <param id="2" name="Second value">&quot;ser&quot;</param>
                                 </condition>
-                                <condition id="0" name="Compare at X" sid="791259427031569" type="palavras">
-                                    <param id="0" name="X">1</param>
+                                <condition id="0" name="Compare at X" sid="845866621541418" type="palavras">
+                                    <param id="0" name="X">0</param>
                                     <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">&quot;mar&quot;</param>
+                                    <param id="2" name="Value">&quot;ar&quot;</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-15" name="Set visible" sid="501763550062182" type="mar">
+                                <action id="-15" name="Set visible" sid="939112343009060" type="ser">
                                     <param id="0" name="Visibility">1</param>
                                 </action>
-                                <action id="-10" name="Add to" sid="368544952530971" type="System">
+                                <action id="-10" name="Add to" sid="590014690566876" type="System">
                                     <param id="0" name="Variable">counter_coins</param>
-                                    <param id="1" name="Value">3</param>
+                                    <param id="1" name="Value">2</param>
                                 </action>
-                                <action id="2" name="Set at X" sid="271678089855305" type="palavras">
-                                    <param id="0" name="X">1</param>
+                                <action id="2" name="Set at X" sid="377968519456232" type="palavras">
+                                    <param id="0" name="X">0</param>
                                     <param id="1" name="Value">&quot;&quot;</param>
                                 </action>
-                                <action id="-9" name="Set value" sid="493661055083391" type="System">
-                                    <param id="0" name="Variable">actualWord</param>
-                                    <param id="1" name="Value">&quot;&quot;</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="804391005342169">
-                            <conditions>
-                                <condition id="-8" name="Compare two values" sid="709116710724842" type="System">
-                                    <param id="0" name="First value">actualWord</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Second value">&quot;amor&quot;</param>
-                                </condition>
-                                <condition id="0" name="Compare at X" sid="111196660999559" type="palavras">
-                                    <param id="0" name="X">3</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">&quot;amor&quot;</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-15" name="Set visible" sid="912838286917886" type="amor">
-                                    <param id="0" name="Visibility">1</param>
-                                </action>
-                                <action id="-10" name="Add to" sid="794553585903510" type="System">
-                                    <param id="0" name="Variable">counter_coins</param>
-                                    <param id="1" name="Value">4</param>
-                                </action>
-                                <action id="2" name="Set at X" sid="884602821290909" type="palavras">
-                                    <param id="0" name="X">3</param>
-                                    <param id="1" name="Value">&quot;&quot;</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="900862531244278" type="System">
+                                <action id="-9" name="Set value" sid="718842660011930" type="System">
                                     <param id="0" name="Variable">actualWord</param>
                                     <param id="1" name="Value">&quot;&quot;</param>
                                 </action>
@@ -310,16 +341,16 @@
                                 <condition id="-8" name="Compare two values" sid="680132317693875" type="System">
                                     <param id="0" name="First value">actualWord</param>
                                     <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Second value">&quot;asa&quot;</param>
+                                    <param id="2" name="Second value">&quot;tia&quot;</param>
                                 </condition>
                                 <condition id="0" name="Compare at X" sid="644004859435644" type="palavras">
                                     <param id="0" name="X">2</param>
                                     <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">&quot;asa&quot;</param>
+                                    <param id="2" name="Value">&quot;tia&quot;</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-15" name="Set visible" sid="107627770412225" type="asa">
+                                <action id="-15" name="Set visible" sid="107627770412225" type="tia">
                                     <param id="0" name="Visibility">1</param>
                                 </action>
                                 <action id="-10" name="Add to" sid="155187404631510" type="System">
@@ -341,16 +372,16 @@
                                 <condition id="-8" name="Compare two values" sid="600332368948161" type="System">
                                     <param id="0" name="First value">actualWord</param>
                                     <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Second value">&quot;soma&quot;</param>
+                                    <param id="2" name="Second value">&quot;teia&quot;</param>
                                 </condition>
                                 <condition id="0" name="Compare at X" sid="220734345905443" type="palavras">
-                                    <param id="0" name="X">4</param>
+                                    <param id="0" name="X">3</param>
                                     <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">&quot;soma&quot;</param>
+                                    <param id="2" name="Value">&quot;teia&quot;</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-15" name="Set visible" sid="197613434601941" type="soma">
+                                <action id="-15" name="Set visible" sid="197613434601941" type="teia">
                                     <param id="0" name="Visibility">1</param>
                                 </action>
                                 <action id="-10" name="Add to" sid="231728934378913" type="System">
@@ -358,7 +389,7 @@
                                     <param id="1" name="Value">4</param>
                                 </action>
                                 <action id="2" name="Set at X" sid="100144741838119" type="palavras">
-                                    <param id="0" name="X">4</param>
+                                    <param id="0" name="X">3</param>
                                     <param id="1" name="Value">&quot;&quot;</param>
                                 </action>
                                 <action id="-9" name="Set value" sid="303640386541919" type="System">
@@ -372,24 +403,24 @@
                                 <condition id="-8" name="Compare two values" sid="310524561391897" type="System">
                                     <param id="0" name="First value">actualWord</param>
                                     <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Second value">&quot;amora&quot;</param>
+                                    <param id="2" name="Second value">&quot;seta&quot;</param>
                                 </condition>
                                 <condition id="0" name="Compare at X" sid="275527042671726" type="palavras">
-                                    <param id="0" name="X">5</param>
+                                    <param id="0" name="X">4</param>
                                     <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">&quot;amora&quot;</param>
+                                    <param id="2" name="Value">&quot;seta&quot;</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-15" name="Set visible" sid="523038348648622" type="amora">
+                                <action id="-15" name="Set visible" sid="523038348648622" type="setaPalavra">
                                     <param id="0" name="Visibility">1</param>
                                 </action>
                                 <action id="-10" name="Add to" sid="439569599071214" type="System">
                                     <param id="0" name="Variable">counter_coins</param>
-                                    <param id="1" name="Value">5</param>
+                                    <param id="1" name="Value">4</param>
                                 </action>
                                 <action id="2" name="Set at X" sid="840115696974555" type="palavras">
-                                    <param id="0" name="X">5</param>
+                                    <param id="0" name="X">4</param>
                                     <param id="1" name="Value">&quot;&quot;</param>
                                 </action>
                                 <action id="-9" name="Set value" sid="803217121145281" type="System">
@@ -398,119 +429,32 @@
                                 </action>
                             </actions>
                         </event-block>
-                    </sub-events>
-                </event-block>
-                <event-block sid="761807636820146">
-                    <conditions>
-                        <condition id="6" name="On object clicked" sid="608627284923155" type="Mouse">
-                            <param id="0" name="Mouse button">0</param>
-                            <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">letraA2</param>
-                        </condition>
-                        <condition id="-2" name="Compare Y" sid="993472249140624" type="letraA2">
-                            <param id="0" name="Comparison">1</param>
-                            <param id="1" name="Y co-ordinate">inicio.Y</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-10" name="Add to" sid="249599183346060" type="System">
-                            <param id="0" name="Variable">actualWord</param>
-                            <param id="1" name="Value"> &quot;a&quot;</param>
-                        </action>
-                        <action id="-10" name="Add to" sid="588153494865590" type="System">
-                            <param id="0" name="Variable">letterCounter</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                    </actions>
-                    <sub-events>
-                        <event-block sid="683659423614107">
+                        <event-block sid="102440399936088">
                             <conditions>
-                                <condition id="-8" name="Compare two values" sid="830716518026249" type="System">
+                                <condition id="-8" name="Compare two values" sid="625530791283031" type="System">
                                     <param id="0" name="First value">actualWord</param>
                                     <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Second value">&quot;asa&quot;</param>
+                                    <param id="2" name="Second value">&quot;sereia&quot;</param>
                                 </condition>
-                                <condition id="0" name="Compare at X" sid="909900032934226" type="palavras">
-                                    <param id="0" name="X">2</param>
+                                <condition id="0" name="Compare at X" sid="801899659969614" type="palavras">
+                                    <param id="0" name="X">5</param>
                                     <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">&quot;asa&quot;</param>
+                                    <param id="2" name="Value">&quot;sereia&quot;</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-15" name="Set visible" sid="741145321348541" type="asa">
+                                <action id="-15" name="Set visible" sid="206615667611446" type="sereia">
                                     <param id="0" name="Visibility">1</param>
                                 </action>
-                                <action id="-10" name="Add to" sid="262163987480999" type="System">
-                                    <param id="0" name="Variable">counter_coins</param>
-                                    <param id="1" name="Value">3</param>
-                                </action>
-                                <action id="2" name="Set at X" sid="386119767719054" type="palavras">
-                                    <param id="0" name="X">2</param>
-                                    <param id="1" name="Value">&quot;&quot;</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="652989318299399" type="System">
-                                    <param id="0" name="Variable">actualWord</param>
-                                    <param id="1" name="Value">&quot;&quot;</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="772548725786492">
-                            <conditions>
-                                <condition id="-8" name="Compare two values" sid="513442073819296" type="System">
-                                    <param id="0" name="First value">actualWord</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Second value">&quot;soma&quot;</param>
-                                </condition>
-                                <condition id="0" name="Compare at X" sid="664217244541488" type="palavras">
-                                    <param id="0" name="X">4</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">&quot;soma&quot;</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-15" name="Set visible" sid="430743845526968" type="soma">
-                                    <param id="0" name="Visibility">1</param>
-                                </action>
-                                <action id="-10" name="Add to" sid="194773503116277" type="System">
+                                <action id="-10" name="Add to" sid="524245111096335" type="System">
                                     <param id="0" name="Variable">counter_coins</param>
                                     <param id="1" name="Value">4</param>
                                 </action>
-                                <action id="2" name="Set at X" sid="493149471189262" type="palavras">
-                                    <param id="0" name="X">4</param>
-                                    <param id="1" name="Value">&quot;&quot;</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="937911329422590" type="System">
-                                    <param id="0" name="Variable">actualWord</param>
-                                    <param id="1" name="Value">&quot;&quot;</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="780743234751577">
-                            <conditions>
-                                <condition id="-8" name="Compare two values" sid="820123013303657" type="System">
-                                    <param id="0" name="First value">actualWord</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Second value">&quot;amora&quot;</param>
-                                </condition>
-                                <condition id="0" name="Compare at X" sid="780683782954667" type="palavras">
-                                    <param id="0" name="X">5</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">&quot;amora&quot;</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-15" name="Set visible" sid="817826912661283" type="amora">
-                                    <param id="0" name="Visibility">1</param>
-                                </action>
-                                <action id="-10" name="Add to" sid="682534755467706" type="System">
-                                    <param id="0" name="Variable">counter_coins</param>
-                                    <param id="1" name="Value">5</param>
-                                </action>
-                                <action id="2" name="Set at X" sid="153970738417281" type="palavras">
+                                <action id="2" name="Set at X" sid="391010187288400" type="palavras">
                                     <param id="0" name="X">5</param>
                                     <param id="1" name="Value">&quot;&quot;</param>
                                 </action>
-                                <action id="-9" name="Set value" sid="458394950699953" type="System">
+                                <action id="-9" name="Set value" sid="925258508372983" type="System">
                                     <param id="0" name="Variable">actualWord</param>
                                     <param id="1" name="Value">&quot;&quot;</param>
                                 </action>
@@ -550,9 +494,9 @@
                         <condition id="6" name="On object clicked" sid="205144785440005" type="Mouse">
                             <param id="0" name="Mouse button">0</param>
                             <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">letraO</param>
+                            <param id="2" name="Object clicked">letraI</param>
                         </condition>
-                        <condition id="-2" name="Compare Y" sid="598148588308953" type="letraO">
+                        <condition id="-2" name="Compare Y" sid="598148588308953" type="letraI">
                             <param id="0" name="Comparison">1</param>
                             <param id="1" name="Y co-ordinate">inicio.Y</param>
                         </condition>
@@ -560,17 +504,50 @@
                     <actions>
                         <action id="-10" name="Add to" sid="992116484383263" type="System">
                             <param id="0" name="Variable">actualWord</param>
-                            <param id="1" name="Value"> &quot;o&quot;</param>
+                            <param id="1" name="Value"> &quot;i&quot;</param>
                         </action>
                         <action id="-10" name="Add to" sid="203356635460722" type="System">
                             <param id="0" name="Variable">letterCounter</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="-3" name="Set position" sid="874533518040904" type="letraO">
+                        <action id="-3" name="Set position" sid="874533518040904" type="letraI">
                             <param id="0" name="X">inicio.X + (letterCounter * 70)</param>
                             <param id="1" name="Y">inicio.Y</param>
                         </action>
                     </actions>
+                    <sub-events>
+                        <event-block sid="806018473056531">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="860311538093662" type="System">
+                                    <param id="0" name="First value">actualWord</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Second value">&quot;rei&quot;</param>
+                                </condition>
+                                <condition id="0" name="Compare at X" sid="132553141926679" type="palavras">
+                                    <param id="0" name="X">1</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;rei&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="701737485116786" type="rei">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-10" name="Add to" sid="978713969769119" type="System">
+                                    <param id="0" name="Variable">counter_coins</param>
+                                    <param id="1" name="Value">3</param>
+                                </action>
+                                <action id="2" name="Set at X" sid="694448442098089" type="palavras">
+                                    <param id="0" name="X">1</param>
+                                    <param id="1" name="Value">&quot;&quot;</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="602207845462257" type="System">
+                                    <param id="0" name="Variable">actualWord</param>
+                                    <param id="1" name="Value">&quot;&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
                 </event-block>
             </sub-events>
         </event-group>
@@ -593,24 +570,32 @@
                             <param id="0" name="Variable">letterCounter</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-3" name="Set position" sid="657330246655805" type="letraM">
-                            <param id="0" name="X">247</param>
+                        <action id="-3" name="Set position" sid="657330246655805" type="letraE">
+                            <param id="0" name="X">501</param>
                             <param id="1" name="Y">65</param>
                         </action>
                         <action id="-3" name="Set position" sid="914361386639607" type="letraR">
-                            <param id="0" name="X">317</param>
+                            <param id="0" name="X">361</param>
                             <param id="1" name="Y">65</param>
                         </action>
                         <action id="-3" name="Set position" sid="243894785261057" type="letraS">
-                            <param id="0" name="X">457</param>
+                            <param id="0" name="X">291</param>
                             <param id="1" name="Y">65</param>
                         </action>
                         <action id="-3" name="Set position" sid="165556858010657" type="letraA">
-                            <param id="0" name="X">387</param>
+                            <param id="0" name="X">431</param>
                             <param id="1" name="Y">65</param>
                         </action>
-                        <action id="-3" name="Set position" sid="240885702439237" type="letraO">
-                            <param id="0" name="X">597</param>
+                        <action id="-3" name="Set position" sid="240885702439237" type="letraI">
+                            <param id="0" name="X">571</param>
+                            <param id="1" name="Y">65</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="296241622696759" type="letraE2">
+                            <param id="0" name="X">203</param>
+                            <param id="1" name="Y">65</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="591977886403347" type="letraT">
+                            <param id="0" name="X">621</param>
                             <param id="1" name="Y">65</param>
                         </action>
                     </actions>
@@ -637,25 +622,25 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="253775793624329" type="dicaM2">
+                        <action id="-15" name="Set visible" sid="253775793624329" type="letraS3dica">
                             <param id="0" name="Visibility">1</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="473106309665952" type="dicaR2">
+                        <action id="-15" name="Set visible" sid="473106309665952" type="letraRdica">
                             <param id="0" name="Visibility">1</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="502788005248529" type="dicaS2">
+                        <action id="-15" name="Set visible" sid="502788005248529" type="letraTdica">
                             <param id="0" name="Visibility">1</param>
                         </action>
                         <action id="-16" name="Wait" sid="668855098642636" type="System">
                             <param id="0" name="Seconds">6.0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="310340167597873" type="dicaM2">
+                        <action id="-15" name="Set visible" sid="310340167597873" type="letraS3dica">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="620239300534930" type="dicaR2">
+                        <action id="-15" name="Set visible" sid="620239300534930" type="letraRdica">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="475364010449402" type="dicaS2">
+                        <action id="-15" name="Set visible" sid="475364010449402" type="letraTdica">
                             <param id="0" name="Visibility">0</param>
                         </action>
                         <action id="-11" name="Subtract from" sid="372824353907041" type="System">
