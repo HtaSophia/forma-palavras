@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event_Instrução_2</name>
+    <events>
+        <event-block any="1" sid="894065697025574">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="853251124039201" type="Mouse">
+                    <param id="0" name="Object">Setavoltar</param>
+                </condition>
+                <condition id="7" name="Cursor is over object" sid="427220067665138" type="Mouse">
+                    <param id="0" name="Object">SetaPassar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="456690619016445" type="Mouse">
+                    <param id="0" name="Cursor style">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="612290906300845">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="876262679513793" type="Mouse">
+                    <param id="0" name="Object">Setavoltar</param>
+                </condition>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="258506264220772" type="Mouse">
+                    <param id="0" name="Object">SetaPassar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="918933584200465" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="122995961897001">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="757258628527944" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Setavoltar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="494106132144042" type="System">
+                    <param id="0" name="Layout">Tela_Inicial</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="347238523721710">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="735396116228196" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">SetaPassar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="926931241126221" type="System">
+                    <param id="0" name="Layout">Instrução</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="382982872344234">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="995225004807401" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set web font" sid="684647694210787" type="Dicas">
+                    <param id="0" name="Family name">&quot;gilroyextrabold&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="773023743302858">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="903331321135637" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set web font" sid="413434711309607" type="ComoJogar">
+                    <param id="0" name="Family name">&quot;babydollregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="337580145331963">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="467770915285341" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set web font" sid="592675976648852" type="Descrição">
+                    <param id="0" name="Family name">&quot;gilroylight&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="535663222129057">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="291108156905441" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set web font" sid="235345030589251" type="Voltar">
+                    <param id="0" name="Family name">&quot;gilroylight&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

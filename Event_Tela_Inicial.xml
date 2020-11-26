@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event_Tela_Inicial</name>
+    <events>
+        <event-group description="" sid="886303186820933" title="Fonts">
+            <sub-events>
+                <event-block sid="446500374240241">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="303946692792895" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set web font" sid="402083407306809" type="BemVindo">
+                            <param id="0" name="Family name">&quot;gilroylight&quot;</param>
+                            <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="848332462587866">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="540942559868845" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set web font" sid="143554083089780" type="Nome">
+                            <param id="0" name="Family name">&quot;babydollregular&quot;</param>
+                            <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="153809303975665" title="Mouse">
+            <sub-events>
+                <event-block any="1" sid="867328606343734">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="346330573412936" type="Mouse">
+                            <param id="0" name="Object">Iniciar</param>
+                        </condition>
+                        <condition id="7" name="Cursor is over object" sid="647983581706890" type="Mouse">
+                            <param id="0" name="Object">Instrução</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set cursor style" sid="688908052532722" type="Mouse">
+                            <param id="0" name="Cursor style">1</param>
+                        </action>
+                        <action id="-27" name="Set effect enabled" sid="529537884551282" type="Iniciar">
+                            <param id="0" name="Mode">1</param>
+                            <param id="1" name="Effect">&quot;Lighten&quot;</param>
+                        </action>
+                        <action id="-27" name="Set effect enabled" sid="231385194072728" type="Instrução">
+                            <param id="0" name="Mode">1</param>
+                            <param id="1" name="Effect">&quot;Lighten&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="157021794688691">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="889881469598435" type="Mouse">
+                            <param id="0" name="Object">Iniciar</param>
+                        </condition>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="384014924008553" type="Mouse">
+                            <param id="0" name="Object">Instrução</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set cursor style" sid="640626876618896" type="Mouse">
+                            <param id="0" name="Cursor style">0</param>
+                        </action>
+                        <action id="-27" name="Set effect enabled" sid="882558565589836" type="Iniciar">
+                            <param id="0" name="Mode">0</param>
+                            <param id="1" name="Effect">&quot;Lighten&quot;</param>
+                        </action>
+                        <action id="-27" name="Set effect enabled" sid="454188184814255" type="Instrução">
+                            <param id="0" name="Mode">0</param>
+                            <param id="1" name="Effect">&quot;Lighten&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="306699099262942">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="315953136356106" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Instrução</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="650114552112554" type="System">
+                            <param id="0" name="Layout">Instrução</param>
+                        </action>
+                        <action id="0" name="Set cursor style" sid="182592155894872" type="Mouse">
+                            <param id="0" name="Cursor style">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="477255141960538" title="Initial">
+            <sub-events>
+                <event-block sid="644623438851878">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="937001191836722" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-27" name="Set effect enabled" sid="655031366980752" type="Iniciar">
+                            <param id="0" name="Mode">0</param>
+                            <param id="1" name="Effect">&quot;Lighten&quot;</param>
+                        </action>
+                        <action id="-27" name="Set effect enabled" sid="393558552441159" type="Instrução">
+                            <param id="0" name="Mode">0</param>
+                            <param id="1" name="Effect">&quot;Lighten&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="746440459688244">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="619090765751478" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Iniciar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="832062060166641" type="System">
+                    <param id="0" name="Layout">Tela_nivel</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

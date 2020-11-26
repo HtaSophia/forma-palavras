@@ -10,14 +10,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="1">Nivel_1</layout>
-        <layout active="1" order="3">Nivel_2</layout>
-        <layout order="5">Nivel_3</layout>
-        <layout order="8">Tela_Inicial</layout>
-        <event-sheet order="2">Event_Nivel_1</event-sheet>
-        <event-sheet order="4">Event_Nivel_2</event-sheet>
-        <event-sheet order="6">Event_Nivel_3</event-sheet>
-        <event-sheet order="7">Event_Tela_nivel</event-sheet>
+        <layout order="0">Nivel_3</layout>
+        <layout order="1">Nivel_4</layout>
+        <layout active="1" order="2">Nivel_5</layout>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -122,5 +117,19 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/letraS3dica/" />
         <folder expanded="1" path="animation-folder/letraRdica/" />
         <folder expanded="1" path="animation-folder/letraTdica/" />
+        <folder expanded="1" path="animation-folder/casa/" />
+        <folder expanded="1" path="animation-folder/sol/" />
+        <folder expanded="1" path="animation-folder/lata/" />
+        <folder expanded="1" path="animation-folder/cola/" />
+        <folder expanded="1" path="animation-folder/toca/" />
+        <folder expanded="1" path="animation-folder/salto/" />
+        <folder expanded="1" path="animation-folder/talco/" />
+        <folder expanded="1" path="animation-folder/sacola/" />
+        <folder expanded="1" path="animation-folder/cor/" />
+        <folder expanded="1" path="animation-folder/roda/" />
+        <folder expanded="1" path="animation-folder/rato/" />
+        <folder expanded="1" path="animation-folder/bota/" />
+        <folder expanded="1" path="animation-folder/barco/" />
+        <folder expanded="1" path="animation-folder/corda/" />
     </folders-expanded>
 </c2uistate>
