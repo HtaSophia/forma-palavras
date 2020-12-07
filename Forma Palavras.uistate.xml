@@ -10,9 +10,17 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Nivel_3</layout>
-        <layout order="1">Nivel_4</layout>
-        <layout active="1" order="2">Nivel_5</layout>
+        <layout order="1">Nivel_3</layout>
+        <layout active="1" order="3">Nivel_4</layout>
+        <layout order="5">Nivel_5</layout>
+        <layout order="6">Tela_Inicial</layout>
+        <layout order="7">Tela_nivel</layout>
+        <layout order="9">Nivel_2</layout>
+        <event-sheet order="0">Event_Nivel_3</event-sheet>
+        <event-sheet order="2">Event_Nivel_4</event-sheet>
+        <event-sheet order="4">Event_Nivel_5</event-sheet>
+        <event-sheet order="8">Event_Tela_nivel</event-sheet>
+        <event-sheet order="10">Event_Nivel_2</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -131,5 +139,18 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/bota/" />
         <folder expanded="1" path="animation-folder/barco/" />
         <folder expanded="1" path="animation-folder/corda/" />
+        <folder expanded="1" path="animation-folder/letraDdica/" />
+        <folder expanded="1" path="animation-folder/letraRdica2/" />
+        <folder expanded="1" path="animation-folder/letraC2/" />
+        <folder expanded="1" path="animation-folder/letraAdica/" />
+        <folder expanded="1" path="animation-folder/letraT2/" />
+        <folder expanded="1" path="animation-folder/letraCdica/" />
+        <folder expanded="1" path="animation-folder/letraT3/" />
+        <folder expanded="1" path="animation-folder/letraTdica2/" />
+        <folder expanded="1" path="animation-folder/letraLdica/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/Sprite3/" />
+        <folder expanded="1" path="animation-folder/Vazio2/" />
+        <folder expanded="1" path="animation-folder/Vazio3/" />
     </folders-expanded>
 </c2uistate>

@@ -149,7 +149,7 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="857060216491763" type="System">
-                    <param id="0" name="Layout">Nivel_1</param>
+                    <param id="0" name="Layout">Nivel_4</param>
                 </action>
             </actions>
         </event-block>
@@ -163,7 +163,7 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="177312680427632" type="System">
-                    <param id="0" name="Layout">Nivel_1</param>
+                    <param id="0" name="Layout">Nivel_5</param>
                 </action>
             </actions>
         </event-block>
